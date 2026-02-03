@@ -1,0 +1,21 @@
+# Core Frameworks
+Django
+fastapi
+uvicorn
+
+# LangChain & Utilities
+langchain
+langchain-community
+
+# LLaMA 3.2 (CPU)
+llama-cpp-python
+
+# Embeddings & Vector Search
+sentence-transformers
+faiss-cpu
+
+# API & Helper Libraries
+requests
+python-dotenv
+pydantic
+pymongo

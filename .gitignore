@@ -1,0 +1,14 @@
+# virtual env
+venv/
+
+# models / ML artifacts
+models/
+model/
+
+# caches
+__pycache__/
+*.pyc
+
+# secrets
+.env
+.env.*

@@ -1,0 +1,274 @@
+[
+  {
+    "title": "Machine Learning Driven Network Security for Smart IoT Environments",
+    "abstract": "With the growing adoption of smart Internet of Things environments, ensuring network security has become increasingly complex due to dynamic traffic patterns and constrained device capabilities. This study presents a machine learning driven approach for detecting malicious activities in IoT networks by analyzing network behavior, identifying anomalies, and enabling adaptive threat response mechanisms that improve detection accuracy and reduce response time.",
+    "normalized_title": "machine learning driven network security for smart iot environments",
+    "normalized_abstract": "with the growing adoption of smart internet of things environments, ensuring network security has become increasingly complex due to dynamic traffic patterns and constrained device capabilities. this study presents a machine learning driven approach for detecting malicious activities in iot networks by analyzing network behavior, identifying anomalies, and enabling adaptive threat response mechanisms that improve detection accuracy and reduce response time.",
+    "keywords": [
+      "machine learning driven network security",
+      "smart iot environments",
+      "growing adoption",
+      "smart internet",
+      "things environments ensuring network security",
+      "become increasingly complex due",
+      "dynamic traffic patterns",
+      "constrained device capabilities",
+      "study presents",
+      "machine learning driven approach",
+      "detecting malicious activities",
+      "iot networks",
+      "analyzing network behavior identifying anomalies",
+      "enabling adaptive threat response mechanisms",
+      "improve detection accuracy",
+      "reduce response time"
+    ],
+    "keyword_scores": {
+      "machine learning driven network security": 10.5,
+      "smart iot environments": 7.5,
+      "enabling adaptive threat response mechanisms": 6.0,
+      "things environments ensuring network security": 5.0,
+      "become increasingly complex due": 5.0,
+      "machine learning driven approach": 5.0,
+      "analyzing network behavior identifying anomalies": 5.0,
+      "dynamic traffic patterns": 4.0
+    },
+    "query": "machine learning driven network security for smart iot environments \"machine learning driven network security\" \"smart iot environments\" \"enabling adaptive threat response mechanisms\" \"things environments ensuring network security\" \"become increasingly complex due\"",
+    "response": [
+      {
+        "title": "Development and Evaluation of a Novel IoT Testbed for Enhancing Security with Machine Learning-Based Threat Detection",
+        "abstract": "The Internet of Things (IoT) has revolutionized industries by enabling seamless data exchange between billions of connected devices. However, the rapid proliferation of IoT devices has introduced significant security challenges, as many of these devices lack robust protection against cyber threats such as data breaches and denial-of-service attacks. Addressing these vulnerabilities is critical to maintaining the integrity and trust of IoT ecosystems. Traditional cybersecurity solutions often fail in dynamic, heterogeneous IoT environments due to device diversity, limited computational resources, and inconsistent communication protocols, which hinder the deployment of uniform and scalable security mechanisms. Moreover, there is a notable lack of realistic, high-quality datasets for training and evaluating machine learning (ML) models for IoT security, limiting their effectiveness in detecting complex and evolving threats. This paper presents the development and implementation of a novel physical smart office/home testbed designed to evaluate ML algorithms for detecting and mitigating IoT security vulnerabilities. The testbed replicates a real-world office environment, integrating a variety of IoT devices, such as different types of sensors, cameras, smart plugs, and workstations, within a network generating authentic traffic patterns. By simulating diverse attack scenarios including unauthorized access and network intrusions, the testbed provides a controlled platform to train, test, and validate ML-based anomaly detection systems. Experimental results show that the XGBoost model achieved a balanced accuracy of up to 99.977% on testbed-generated data, comparable to 99.985% on the benchmark IoT-23 dataset. Notably, the SVM model achieved up to 96.71% accuracy using our testbed data, outperforming its results on IoT-23, which peaked at 94.572%. The findings demonstrate the testbed\u2019s effectiveness in enabling realistic security evaluations and ability to generate real-world datasets, highlighting its potential as a valuable tool for advancing IoT security research. This work contributes to the development of more resilient and adaptive security frameworks, offering valuable insights for safeguarding critical IoT infrastructures against evolving threats.",
+        "authors": [
+          {
+            "authorId": "2120999",
+            "name": "Waleed Farag"
+          },
+          {
+            "authorId": "2287438245",
+            "name": "Xin-Wen Wu"
+          },
+          {
+            "authorId": "3352857",
+            "name": "Soundararajan Ezekiel"
+          },
+          {
+            "authorId": "2381298709",
+            "name": "Drew Rado"
+          },
+          {
+            "authorId": "2381296710",
+            "name": "Jaylee Lassinger"
+          }
+        ],
+        "year": 2025,
+        "venue": "Italian National Conference on Sensors",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/fda100abb7be83747f963160771af80e9282f65e",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Integrating Machine Learning and the Internet of Things to Secure Smart Manufacturing: Preserving Cyberattacks to Industrial Systems",
+        "abstract": "The Industry 4.0 has revolutionized the manufacturing domain by connecting cyber-physical systems, IoT (Internet of Things) devices, and advanced automation to form smart manufacturing systems. Although these technological advances have helped increase productivity, flexibility and efficiency, they have also resulted in significant increased cyber security vulnerabilities in industrial systems. Smart manufacturing systems comprise of networked IO T devices, sensors, actuators and control systems which are susceptible to cyber-attacks, including data breach, ransomware and sabotage. Common security mechanisms are seldom applicable to these diverse and resource-constrained environments. This study investigates the introduction of ML in the IoT and offers a new cybersecurity blueprint for smart manufacturing systems. Machine Learning provides tremendous capabilities to detect complex and evolving threats with anomaly detection, predictive analytics and real-time threat hunting. ML algorithms can analyze the huge amount of data generated by IoT (internet of things) sensors and industrial control systems in search of anomalous behavior that is characteristic of a cyberattack, zero-day exploits, or insider threats. The preemptive detection results in quick response times which in turn reduces the potential revenue and impact on production. Different machine/learning algorithms, including supervised learning, unsupervised clustering and deep learning architectures are discussed and evaluated to achieve improved threat detection performance under the resource-constrained environment of industrial IoT devices. The proposed approach integrates edge computing and cloud analytics to tradeoff real-time detection with low computation load. Real-time threat detection occurs closer to the source with edge-based ML models, and cloud-based analysis hones models and provides long-term threat intelligence. Moreover, it uses secure communication protocols and encryption methods to ensure the security of data carried over the manufacturing network in terms of integrity and confidentiality. Experimental results show that, compared with the existing IoT-based approaches in smart manufacturing, the proposed ML-driven system has much improved accuracy on non-detected vectors and provides very fast detection ability in the event of a cyber-attack. This study provides insight into next-generation, smart adaptive security solutions that maintain the security and availability of critical industrial systems against growing threats.",
+        "authors": [
+          {
+            "authorId": "2404367207",
+            "name": "Paddabbai Chowdari Karanam"
+          },
+          {
+            "authorId": "2301596649",
+            "name": "P. Deepalakshmi"
+          }
+        ],
+        "year": 2025,
+        "venue": "2025 International Conference on Future Technologies (ICFT)",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/f0f5e83437550d664d2f16f794a77d50a5ec9390",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "ENHANCING 6G NETWORK SECURITY WITH ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INTEGRATION.",
+        "abstract": "The emergence of 6G networks heralds an era of unprecedented connectivity, speed, and complexity, paving the way for \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 revolutionary \u00a0 advancements such \u00a0\u00a0\u00a0 as holographic communications, autonomous systems, and the Internet of Everything (IoE). However, with these enhanced capabilities comes a host of critical security challenges, including sophisticated cyber threats, privacy vulnerabilities, and the protection of billions of interconnected devices. Artificial Intelligence (AI) and Machine Learning (ML) are revolutionizing the security landscape of 6G networks, emerging as powerful catalysts for transformation. These technologies enable proactive threat detection, adaptive defense mechanisms, and real-time response strategies, fostering a resilient and intelligent security framework. AI-driven models can dynamically detect anomalies, autonomously refine protective measures, and facilitate self-optimizing security operations, ensuring a robust and future-ready defense system. Meanwhile, ML techniques facilitate predictive analytics, continuous learning, and advanced encryptionstrategies, tailored to the ever-changing threat environment. Furthermore, AI plays a pivotal role in securing network slices, IoT ecosystems, and edge infrastructures, offering robust and scalable protection within a highly virtualized and decentralized network architecture [1,3] \nnext-generation \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 networks. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 By \u00a0\u00a0\u00a0\u00a0\u00a0 providing \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 a \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 comprehensive Key innovations such as federated learning, behavioural analytics, and post-quantum cryptography serve as critical enablers for enhancing privacy, resilience, and trust in 6G environments. Despite their vast potential, challenges such as model robustness, explainability, and seamless integration with legacy systems must be addressed to fully harness the power of AI and ML in securing exploration of AI and ML-driven security solutions, this study aims to foster trust, inspire innovation, and lay the foundation for secure and reliable 6G adoption worldwide [14,15]. \nProblem Statement: As 6G networks evolve, they introduce new security challenges due to their complex architecture, massive connectivity, and ultra-low latency requirements. Traditional security mechanisms are inadequate to combat advanced cyber threats, including AI-powered attacks and vulnerabilities arising from edge computing and decentralized networks. Furthermore, the advent of quantum computing threatens existing cryptographic standards, rendering them obsolete and exposing 6G networks to unprecedented security risks. Therefore, there is a critical need to leverage AI, ML, and quantum-resistant security solutions to enhance threat detection, automate response mechanisms, and communications against both classical and quantum cyber threats.",
+        "authors": [
+          {
+            "authorId": "2392280708",
+            "name": "Mrs. Darakshan"
+          },
+          {
+            "authorId": "2392280966",
+            "name": "Javed Ansari Dr"
+          },
+          {
+            "authorId": "9202042",
+            "name": "A. Shaikh"
+          }
+        ],
+        "year": 2025,
+        "venue": "International Journal of Applied Mathematics",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/8335e01fffbb53483338bb4aab3a23b6fd746b1a",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Emerging Cybersecurity Threats in the Era of AI and IoT: A Risk Assessment Framework Using Machine Learning for Proactive Threat Mitigation",
+        "abstract": "The integration of Artificial Intelligence (AI) and the Internet of Things (IoT) has revolutionized various industries, enabling automation, real-time decision-making, and enhanced connectivity. However, these advancements have also introduced new cybersecurity threats, increasing the vulnerability of interconnected systems. The proliferation of IoT devices and AI-driven applications has expanded the attack surface, making them prime targets for cyber adversaries. Traditional security mechanisms, which often rely on signature-based threat detection, struggle to address sophisticated attacks such as adversarial AI manipulations, IoT botnet infiltrations, and real-time data breaches. This study examines emerging cybersecurity risks in AI and IoT environments, emphasizing the limitations of existing security frameworks in detecting and mitigating evolving threats. One of the key challenges is the inability of conventional methods to adapt to novel attack patterns in dynamic and complex networks. To address this issue, we introduce a machine learning-based risk assessment framework designed for proactive threat mitigation. This framework leverages anomaly detection, behavioral analytics, and predictive threat modeling to identify potential cybersecurity risks in real time. By integrating adaptive learning algorithms and continuous monitoring, the proposed system enhances resilience against AI-driven cyberattacks and IoT-based vulnerabilities. The findings highlight the critical need for AI-driven cybersecurity solutions capable of evolving alongside emerging threats, ensuring the safety and reliability of interconnected digital ecosystems.",
+        "authors": [
+          {
+            "authorId": "2349016939",
+            "name": "Thandy Simanjuntak"
+          }
+        ],
+        "year": 2024,
+        "venue": "International Journal of Information System and Innovative Technology",
+        "citationCount": 3,
+        "url": "https://www.semanticscholar.org/paper/41d7e279253dbe3ed144239d5d9913a281cd5c93",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Securing the future: AI-driven cybersecurity in the age of autonomous IoT",
+        "abstract": "The Autonomous Internet of Things (A-IoT) represents a major advancement in interconnected systems, enabling self-governing smart devices to operate collaboratively across domains such as smart cities, industrial automation, healthcare, and autonomous vehicles. However, the complexity, scale, and heterogeneity of A-IoT environments introduce severe cybersecurity challenges, including expanded attack surfaces, real-time data processing demands, sophisticated adversarial threats, and privacy risks. Traditional security measures are not always adequate to address these emerging threats, and this is why intelligent adaptive defence systems are required. This narrative review offers an extensive and systematic presentation of AI-based cybersecurity strategies that are specific to the peculiarities of A-IoT ecosystems. It examines fundamental methods, including machine learning, deep learning, federated learning, and swarm intelligence, as well as the latest paradigms, such as explainable AI, generative adversarial networks, and digital twins. The approaches are discussed within the scope of the most important security tasks, such as intrusion detection, anomaly detection, malware analysis, secure authentication, and autonomous threat response. The review also locates crucial issues related to data quality, model interpretability, adversarial vulnerabilities and ethical limitations of the application of AI in security-critical applications. Moreover, it describes future research directions using hybrid AI-blockchain frameworks, self-healing autonomous agents, and trust-aware AI systems.",
+        "authors": [
+          {
+            "authorId": "2268123219",
+            "name": "F. C. Ogenyi"
+          },
+          {
+            "authorId": "2268123225",
+            "name": "Chinyere N. Ugwu"
+          },
+          {
+            "authorId": "123580646",
+            "name": "Ugwu Okechukwu Paul-Chima"
+          }
+        ],
+        "year": 2025,
+        "venue": "Frontiers in the Internet of Things",
+        "citationCount": 3,
+        "url": "https://www.semanticscholar.org/paper/f104ffa33660254ba63a132aff6ed251c088e7f0",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "AI-Driven Digital Mirror Technology for Securing IoT-Enabled Smart Infrastructures",
+        "abstract": "The expansion of the Internet of Things (IoT) is driven by the proliferation of interconnected wireless gadgets, made possible by ever-improving computer and Internet infrastructure. The IoT is an extensive system of interconnected sensors and gateways. In the course of their constant environmental interaction, IoT devices produce a wealth of data resources, including images, audio, video, digital signals, and more. Connectivity to the Internet allows all Internet of Things (IoT) equipment and apps to exchange data and resources more effectively. The proposed AI-Driven Digital Mirror Technology effectively enhances the security of IoT-enabled smart infrastructures by integrating real-time monitoring, anomaly detection, and adaptive response mechanisms. By employing advanced AI algorithms such as Graph Neural Networks (GNNs) and Reinforcement Learning (RL), the technology mirrors IoT environments digitally, enabling dynamic modeling and threat assessment. The system demonstrated a significant improvement in threat detection accuracy, achieving a precision rate of 95.6% and a recall rate of 93.2% during simulations. Additionally, the adaptive response mechanism reduced the average response time to security breaches by 40%, ensuring minimal disruption to infrastructure operations. Comparative analysis with traditional security solutions highlighted the system's superiority in mitigating complex, multi-layered attacks, and its scalability makes it suitable for various smart infrastructure applications, including smart cities, industrial automation, and intelligent transportation systems. The results underscore the potential of AI-Driven Digital Mirror Technology in securing IoT ecosystems against evolving cyber threats while maintaining operational efficiency and resilience.",
+        "authors": [
+          {
+            "authorId": "2343844466",
+            "name": "Jyoti Chaudhary"
+          },
+          {
+            "authorId": "2336312808",
+            "name": "Upma Jain"
+          },
+          {
+            "authorId": "2343844244",
+            "name": "Sudarshan N"
+          },
+          {
+            "authorId": "2331510051",
+            "name": "Vasudeva Pai"
+          },
+          {
+            "authorId": "2283499761",
+            "name": "Kamal Sutaria"
+          },
+          {
+            "authorId": "2128828703",
+            "name": "N. L"
+          }
+        ],
+        "year": 2024,
+        "venue": "2024 International Conference on Integrated Intelligence and Communication Systems (ICIICS)",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/6e224e1f9231e26e74aab6834dd0d99a80bcc4d8",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Quantum-driven security evolution in IoT: AI-powered cryptography and anomaly detection",
+        "abstract": "",
+        "authors": [
+          {
+            "authorId": "2346708903",
+            "name": "Hana Mohammed Mujlid"
+          },
+          {
+            "authorId": "2300998593",
+            "name": "Reem Alshahrani"
+          }
+        ],
+        "year": 2025,
+        "venue": "Journal of Supercomputing",
+        "citationCount": 8,
+        "url": "https://www.semanticscholar.org/paper/94524ff41652fa6ee53bce1212b3200c743f1474",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Machine learning techniques for real-time malware classification and threat detection in distributed systems",
+        "abstract": "The proliferation of cyber threats across distributed systems\u2014spanning cloud platforms, edge networks, and Internet-of-Things (IoT) ecosystems\u2014demands robust, adaptive mechanisms for malware classification and real-time threat detection. Traditional signature-based and rule-driven detection systems are increasingly ineffective against rapidly evolving threats, such as polymorphic malware and zero-day attacks. This study explores the application of advanced machine learning (ML) techniques to build a scalable, real-time malware classification and threat detection framework tailored for distributed environments. It integrates supervised learning models including Random Forests, Support Vector Machines (SVM), and Gradient Boosting with deep learning architectures such as Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks to extract temporal, behavioral, and structural features from system logs, network flows, and executable binaries. A hybrid ensemble approach enhances generalization across diverse data sources, while online learning capabilities facilitate continuous model updates from live threat intelligence feeds. The framework is deployed within a decentralized monitoring architecture that supports federated learning, ensuring data privacy across distributed endpoints while maintaining high detection accuracy. Evaluation was conducted using benchmark datasets (CICIDS, EMBER, and custom-labeled logs from industrial control systems), achieving a detection accuracy exceeding 96% and a low false-positive rate under real-time constraints. Notably, the model exhibited resilience to adversarial evasion tactics through adaptive retraining mechanisms. The proposed system not only automates threat classification but also enables anomaly detection and threat prioritization for security analysts. This research underscores the growing utility of ML-driven security solutions in managing the complex threat landscape of distributed digital infrastructures.",
+        "authors": [
+          {
+            "authorId": "2369144284",
+            "name": "Elvis Nnaemeka Chukwuani"
+          },
+          {
+            "authorId": "2391208140",
+            "name": "Ololade R Odunsi"
+          },
+          {
+            "authorId": "2369149153",
+            "name": "Chukwujekwu Damian Ikemefuna"
+          }
+        ],
+        "year": 2025,
+        "venue": "World Journal of Advanced Research and Reviews",
+        "citationCount": 3,
+        "url": "https://www.semanticscholar.org/paper/210f11c4cdde684ee5a4f1861241070252c3be94",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Learning\u2010driven ubiquitous mobile edge computing: Network management challenges for future generation Internet of Things",
+        "abstract": "Ubiquitous edge computing facilitates efficient cloud services near mobile devices, enabling mobile edge computing (MEC) to offer services more efficiently by presenting storage and processing capability within the proximity of mobile devices and in general IoT domains. However, compared with conventional mobile cloud computing, ubiquitous MEC introduces numerous complex challenges due to the heterogeneous smart devices, network infrastructures, and limited transmission bandwidth. Processing and managing such massive volumes of data generated from these devices is complex and challenging in edge infrastructures. On the other side, time-critical applications have stringent requirements such as ultra-low-latency, energy cost, mobility, resource, and security issues that cannot be neglected. For example, smart healthcare or industrial networks generate emergency information very frequently (i.e., often in terms of millisec-onds), which needs to be processed near the sensing devices with minimal processing delay. In this context, future generation IoT requires robust and intelligent network management approaches that can handle the system complexity (e.g., scalability and orchestration) with little or no little human intervention and offer a better service to end-users. More precisely, AI/ML approaches designed explicitly for networks under high traffic volume of data help overcome several management challenges, such as (i) improving performance by balancing load and traffic, (ii) distributing the bandwidth spectrum based on demand, and (iii) traffic predictions. Moreover, this need also opens several new research directions such as new MEC architecture, service provisioning technique, security mechanisms, advanced 5G or beyond communication technology, ambient intelligence, and AI/ML-based solutions. This issue collect surveys and contribution articles on emerging trends and technologies in ubiquitous MEC for future generation IoT networks and their managements. The papers related to machine learning, deep learning, optimization, blockchain, 5G, or beyond solutions, especially for domain-specific IoT network management, which use MEC environments, are collected after evaluating the review process. Each paper submitted to this special issue was reviewed by three to seven experts during the assessment process. At the end we",
+        "authors": [
+          {
+            "authorId": "147786874",
+            "name": "Praveen Kumar Donta"
+          },
+          {
+            "authorId": "2237709592",
+            "name": "Edmundo Monteiro"
+          },
+          {
+            "authorId": "3437537",
+            "name": "C. Dehury"
+          },
+          {
+            "authorId": "50857417",
+            "name": "Ilir Murturi"
+          }
+        ],
+        "year": 2023,
+        "venue": "International Journal of Network Management",
+        "citationCount": 9,
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/nem.2250",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "An AI-based Intrusion Detection System for SQL Injection Attacks in Smart Home IoT Networks",
+        "abstract": "The widespread adoption of Internet of Things (IoT) technologies has transformed smart home environments by enhancing automation, connectivity, and user-centric functionality. However, the advancements also introduce different security vulnerabilities, among which SQL injection attack has become notably pervasive and damaging. The attack involves adversaries injecting or manipulating SQL queries through insecure IoT device interfaces, corrupting databases or exfiltrating data, which lead to unauthorized access, data leakage, device control compromise, and cascading effects across connected systems. In response to this attack, this study proposes an Intrusion Detection System (IDS) to detect and mitigate SQL injection attacks in IoT-based smart home networks. To ensure resilience and performance, the proposed IDS framework integrates three principal categories of artificial intelligence algorithms based on their distinct methodological advantages: first, traditional machine learning techniques, which provide foundational classification and clustering capabilities with interpretable decision boundaries and efficient performance on structured data; second, boosting-based ensemble methods, which contribute enhanced predictive accuracy and robustness through iterative refinement and sensitivity to complex feature interactions; and third, deep learning architectures, which further enrich the system by enabling hierarchical feature extraction and temporal pattern modeling, particularly suited to high-dimensional and sequential intrusion data. The strategic integration of these algorithmic classes allows the IDS to leverage complementary strengths, resulting in improved detection accuracy and adaptability across diverse threat environments.",
+        "authors": [
+          {
+            "authorId": "2389854261",
+            "name": "Mina Malekzadeh"
+          },
+          {
+            "authorId": "2389830201",
+            "name": "Dheyaa Mohammed Ali Al_Akabi"
+          }
+        ],
+        "year": 2025,
+        "venue": "Transactions on Engineering and Computing Sciences",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/3226481114ec58b8087974b2b2c670a59d1ed00c",
+        "source": "SemanticScholar"
+      }
+    ],
+    "timestamp": "2026-01-27T10:24:35.363754+00:00"
+  }
+]

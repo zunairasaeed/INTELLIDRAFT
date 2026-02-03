@@ -1,0 +1,253 @@
+[
+  {
+    "title": "AI-Based Intrusion Detection Systems for Internet of Things Networks",
+    "abstract": "The rapid expansion of Internet of Things networks has introduced serious security challenges due to limited device resources, large-scale connectivity, and heterogeneous communication protocols. This research investigates machine learning and artificial intelligence based intrusion detection systems for IoT environments, focusing on anomaly detection, network traffic analysis, threat classification, and real-time mitigation techniques to improve overall network security and reliability.",
+    "normalized_title": "ai-based intrusion detection systems for internet of things networks",
+    "normalized_abstract": "the rapid expansion of internet of things networks has introduced serious security challenges due to limited device resources, large-scale connectivity, and heterogeneous communication protocols. this research investigates machine learning and artificial intelligence based intrusion detection systems for iot environments, focusing on anomaly detection, network traffic analysis, threat classification, and real-time mitigation techniques to improve overall network security and reliability.",
+    "keywords": [
+      "ai-based intrusion detection systems",
+      "things networks",
+      "rapid expansion",
+      "introduced serious security challenges due",
+      "limited device resources large-scale connectivity",
+      "heterogeneous communication protocols",
+      "research investigates machine learning",
+      "artificial intelligence based intrusion detection systems",
+      "iot environments focusing",
+      "anomaly detection network traffic analysis threat classification",
+      "real-time mitigation techniques",
+      "improve overall network security"
+    ],
+    "keyword_scores": {
+      "ai-based intrusion detection systems": 9.0,
+      "things networks": 7.5,
+      "artificial intelligence based intrusion detection systems": 7.0,
+      "anomaly detection network traffic analysis threat classification": 7.0,
+      "introduced serious security challenges due": 6.0,
+      "limited device resources large-scale connectivity": 5.0,
+      "research investigates machine learning": 5.0,
+      "improve overall network security": 5.0
+    },
+    "query": "ai-based intrusion detection systems for internet of things networks \"ai-based intrusion detection systems\" \"things networks\" \"artificial intelligence based intrusion detection systems\" \"anomaly detection network traffic analysis threat classification\" \"introduced serious security challenges due\"",
+    "response": [
+      {
+        "title": "CYBERSECURITY IN INDUSTRIAL CONTROL SYSTEMS: A SYSTEMATIC LITERATURE REVIEW ON AI-BASED THREAT DETECTION FOR SCADA AND IOT NETWORKS",
+        "abstract": "The increasing integration of Industrial Control Systems (ICS) with Internet of Things (IoT) technologies and Supervisory Control and Data Acquisition (SCADA) networks has brought unparalleled efficiency and automation to critical infrastructure sectors, including energy, water, manufacturing, and transportation. However, this digital convergence has also significantly expanded the cyber threat landscape, making ICS more vulnerable to sophisticated cyberattacks. This systematic literature review critically examines the role of Artificial Intelligence (AI)-based techniques in enhancing threat detection capabilities across SCADA and IoT-enabled ICS environments. Following PRISMA guidelines, 162 peer-reviewed articles published between 2015 and 2024 were analyzed to identify prevailing trends, methodologies, and performance outcomes in AI-driven threat detection. The review highlights the adoption of machine learning (ML), deep learning (DL), and hybrid AI models for anomaly detection, intrusion detection, and malware classification, with particular focus on real-time data analytics and predictive capabilities. Among the reviewed studies, neural networks, support vector machines, and ensemble models were frequently applied, achieving detection accuracies exceeding 90% in simulated and real-world ICS environments. Additionally, the review uncovers sector-specific vulnerabilities, including protocol-level weaknesses (e.g., Modbus, DNP3), data imbalance challenges, and adversarial attack risks in deep learning models. This study provides an integrative view of the AI-cybersecurity nexus in industrial systems and offers future research directions for building resilient, adaptive, and intelligent security frameworks for critical infrastructures.",
+        "authors": [
+          {
+            "authorId": "2351885115",
+            "name": "Ammar Bajwa"
+          },
+          {
+            "authorId": "2341739658",
+            "name": "Aleem Al Razee Tonoy"
+          },
+          {
+            "authorId": "2363216991",
+            "name": "Sohel Rana"
+          },
+          {
+            "authorId": "2352066243",
+            "name": "Ishtiaque Ahmed"
+          }
+        ],
+        "year": 2025,
+        "venue": "ASRC Procedia: Global Perspectives in Science and Scholarship",
+        "citationCount": 4,
+        "url": "https://www.semanticscholar.org/paper/1e167f2c2e379a0494201f9ec24da609187b9478",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Artificial Intelligence Based Intrusion Detection Systems",
+        "abstract": "Breakthroughs in deep learning (DL) and machine learning (ML) have revolutionized cybersecurity by remarkably improving detection performances and achieving Turing completeness to rapidly changing attack scenario. These developments have made AI-based intrusion detection systems (IDS) one of the most important technologies for networked and Internet of Things (IoT) security. This work presents an in-depth overview of state-of-the-art IDS approaches such as Bi-Directional Long Short-Term Memory (Bi-LSTM) networks, Convolutional Neural Networks (CNNs), Generative Adversarial Networks (GANs) and ensembles. Particular attention is given to dealing with the specific challenges that arise with integration of IoT devices, whose safety is often in jeopardy due to sophisticated cyber-attacks, as well as with the heterogeneity of modern network structures. Analysis reveals the advantages and disadvantages of each method and demonstrates that the Bi-LSTM, and GANs methods perform better in dynamic, complex data streams, while ensemble methods enhance the robustness and threat detection performance of the statistical classifier. Using these sophisticated AI approaches, IDS can be improved to provide security enhancements, delivering crucial information for securing IoT ecosystem and addressing the threats posed by complex network architectures.",
+        "authors": [
+          {
+            "authorId": "2347002198",
+            "name": "Vignesh Reddy"
+          },
+          {
+            "authorId": "2350323175",
+            "name": "Sunitha R"
+          },
+          {
+            "authorId": "2346504038",
+            "name": "M. Anusha"
+          },
+          {
+            "authorId": "2346530523",
+            "name": "S. Chaitra"
+          },
+          {
+            "authorId": "2339241295",
+            "name": "Abhilasha P. Kumar"
+          }
+        ],
+        "year": 2024,
+        "venue": "2024 4th International Conference on Mobile Networks and Wireless Communications (ICMNWC)",
+        "citationCount": 2,
+        "url": "https://www.semanticscholar.org/paper/aea867f8c18be490c383d1b9fde44637bd00c295",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "A Hybrid based Kolmogorov-Arnold Network for Intrusion Detection Systems in IoT",
+        "abstract": "In recent years, machine learning models have become increasingly prevalent across various fields, particularly in intrusion detection. This trend is especially noticeable in the Internet of Things (IoT) domain, where the intricate network of interconnected devices requires sophisticated defence mechanisms against potential threats. To tackle this challenge, researchers are turning to deep learning techniques, harnessing the power of artificial intelligence (AI) to secure IoT environments. We introduce a novel Intrusion Detection System (IDS) based on the Kolmogorov-Arnold Network (KAN). This system combines the efficiency of Long Short-Term Memory (LSTM) networks, which excel in handling time series data, with the adaptability of KAN, thanks to its learnable activation functions. To the best of the authors\u2019 knowledge, this is the 1st manuscript utilizing KANs as a core algorithm for intrusion detection. Our experimental results highlight the high detection accuracy of the hybrid IDS, achieving over $\\mathbf{9 8 \\%}$ accuracy in distinguishing between malicious and normal instances. Additionally, we provide a comparative analysis with conventional Multi-Layer Perceptron (MLP) networks, evaluating performance metrics such as Precision, Recall, and F1-score. Our findings underscore the potential of a hybrid IDS approach in enhancing the security of IoT networks.",
+        "authors": [
+          {
+            "authorId": "3379271",
+            "name": "Amar Amouri"
+          },
+          {
+            "authorId": "2267672536",
+            "name": "M. M. Rahhal"
+          },
+          {
+            "authorId": "1795469",
+            "name": "Y. Bazi"
+          },
+          {
+            "authorId": "17841781",
+            "name": "V. Alaparthy"
+          },
+          {
+            "authorId": "2323852086",
+            "name": "Georgios Fotopoulos"
+          }
+        ],
+        "year": 2024,
+        "venue": "2024 IEEE Middle East Conference on Communications and Networking (MECOM)",
+        "citationCount": 1,
+        "url": "https://www.semanticscholar.org/paper/df1aa018a6fd58a82086b6785b671215e49affd6",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "An intelligent deep representation learning with enhanced feature selection approach for cyberattack detection in internet of things enabled cloud environment",
+        "abstract": "Users of computer networks can take advantage of cloud computing (CC), a relatively new concept that provides features such as processing, in addition to storing and sharing data. Cloud computing (CC) is attracting global investment due to its services, while IoT faces rising advanced cyberattacks, making its cybersecurity crucial to protect privacy and digital assets. A significant challenge for intrusion detection systems (IDS) is detecting complex and hidden malware, as attackers use advanced evasion techniques to bypass conventional security measures. At the cutting edge of cybersecurity is artificial intelligence (AI), which is applied to develop composite models that protect systems and networks, including Internet of Things (IoT) systems. AI-based deep learning (DL) is highly effective in detecting cybersecurity threats. This paper presents an Intelligent Hybrid Deep Learning Method for Cyber Attack Detection Using an Enhanced Feature Selection Technique (IHDLM-CADEFST) approach in IoT-enabled cloud networks. The aim is to strengthen IoT cybersecurity by identifying key threats and developing effective detection and mitigation strategies. Initially, the data pre-processing phase uses the standard scaler method to convert input data into a suitable format. Furthermore, the feature selection (FS) strategy is implemented using the recursive feature elimination with information gain (RFE-IG) model to detect the most pertinent features and prevent overfitting. Finally, a hybrid Convolutional Neural Network and Long Short-Term Memory (CNN-LSTM) model is employed for attack classification, utilizing the RMSprop optimizer to enhance the performance and efficiency of the classification process. The experimentation of the IHDLM-CADEFST approach is examined under the ToN-IoT and Edge-IIoT datasets. The comparison analysis of the IHDLM-CADEFST approach yielded superior accuracy values of 99.45% and 99.19% compared to recent models on the dual dataset.",
+        "authors": [
+          {
+            "authorId": "23192827",
+            "name": "Hayam Alamro"
+          },
+          {
+            "authorId": "2294974913",
+            "name": "S. Albouq"
+          },
+          {
+            "authorId": "2354645012",
+            "name": "Jahangir Khan"
+          },
+          {
+            "authorId": "2015247139",
+            "name": "M. Alanazi"
+          },
+          {
+            "authorId": "72502359",
+            "name": "Nojood O. Aljehane"
+          },
+          {
+            "authorId": "51040149",
+            "name": "J. Alqurni"
+          },
+          {
+            "authorId": "2206286584",
+            "name": "Mohammed Mujib Alshahrani"
+          },
+          {
+            "authorId": "2279567382",
+            "name": "O. Alasmari"
+          }
+        ],
+        "year": 2025,
+        "venue": "Scientific Reports",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/25e541e148ae0013952439db12dcca4113b0d96e",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "AI-Based Hardware Trojan Intrusion Detection System for IoT and Edge Devices",
+        "abstract": "The proliferation of Internet of Things (IoT) and Edge devices in critical applications has exposed them to sophisticated Hardware Intrinsic Attacks (HIAs), where hidden trojans can be activated to trigger malicious behavior. Existing intrusion detection systems (IDSs) are largely dependent on network traffic analysis, which struggles to detect hardware-level compromises and evolving threats that mimic normal communication patterns. To overcome these limitations, this paper introduces a novel IDS that leverages hardware-based current profiling for robust intrusion detection. The core of our approach is the monitoring of devices\u2019 current consumption patterns to identify anomalies indicative of an attack, a method that is fundamentally different from and complementary to traditional network-based detection. We demonstrate the efficacy of this approach on a real-world testbed comprising ESP32 microcontrollers (IoT nodes) and a Raspberry Pi 5 (Edge device). The system was evaluated against four critical attack types: Covert Channel Attack (CCA), Power Depletion Attack (PDA), Denial-of-Service (DoS), and Man-in-the-Middle Attack (MIMA). By integrating Artificial Intelligence (AI) through customized Machine Learning (ML) and Deep Learning (DL) models that are trained on over 1.2 million records of current/voltage consumption collected dataset, our IDS achieves a superior multi-class classification with Accuracy of 99.78%, Precision of 99.61%, Recall of 99.61%, and F1-score of 99.60%. These results significantly outperform existing state-of-the-art methods. The findings underscore that physical layer current draw analysis provides a highly reliable and adaptive security mechanism, offering a powerful solution for securing IoT ecosystems against embedded hardware threats and sophisticated cyberattacks.",
+        "authors": [
+          {
+            "authorId": "2352111796",
+            "name": "Amro Moursi"
+          },
+          {
+            "authorId": "1829082",
+            "name": "U. Qidwai"
+          },
+          {
+            "authorId": "2323516665",
+            "name": "Syed Rafay Hasan"
+          },
+          {
+            "authorId": "2391188187",
+            "name": "Abdulla Al Ali"
+          },
+          {
+            "authorId": "1958145",
+            "name": "A. Erradi"
+          }
+        ],
+        "year": 2025,
+        "venue": "IEEE Access",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/2d46ec65a044d6492abacb3079504d9645c5e982",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Anomaly Detection for the Internet of Things Using Machine Learning Techniques",
+        "abstract": "The rapid growth of the Internet of Things (IoT) has introduced considerable security challenges, making Intrusion Detection Systems (IDS) essential for protecting connected devices from cyber threats. This paper presents an Artificial Intelligence (AI)-driven Intrusion Detection System (IDS) designed for IoT environments, utilizing machine learning and anomaly detection techniques. The system leverages the NSL-KDD dataset to distinguish between normal and anomalous network traffic. We implemented multiple feature selection techniques, including correlation-based selection, Recursive Feature Elimination (RFE), and LASSO, to optimize model performance. Various machine learning classifiers, including Random Forest (RF), Bagging, Support Vector Machines (SVM), and K-Nearest Neighbors (KNN), were evaluated using key performance metrics such as accuracy, recall, precision, and AUC-ROC. Experimental results indicate that Random Forest and Bagging outperformed other models, achieving the highest accuracy of 99.89%, with an AUC-ROC of 99.88%, outperforming other models in intrusion detection. Additionally, feature selection methods effectively reduced dataset dimensionality while maintaining high detection performance. Despite these promising results, challenges such as high training time, false positives, and real-time adaptability remain critical concerns for practical deployment in IoT systems.",
+        "authors": [
+          {
+            "authorId": "2398110339",
+            "name": "Lotfi Hazzam"
+          },
+          {
+            "authorId": "2398102733",
+            "name": "Samir Fenan\u0131r"
+          }
+        ],
+        "year": 2025,
+        "venue": "International Journal of Computational and Experimental Science and Engineering",
+        "citationCount": 0,
+        "url": "https://www.semanticscholar.org/paper/48873165e3a359f2a106ec7e84e5bd02cb7476c9",
+        "source": "SemanticScholar"
+      },
+      {
+        "title": "Systematic Analysis of Federated Learning Approaches for Intrusion Detection in the Internet of Things Environment",
+        "abstract": "The Internet of Things (IoT) has transformed various sectors by connecting devices, services, and applications, which boosts intelligence and operational efficiency. However, this growing connectivity has heightened concerns regarding data privacy and security, particularly for sensitive information. Intrusion detection systems (IDSs) have emerged as an effective strategy by incorporating machine learning (ML) methodologies to identify sophisticated cybersecurity threats. Traditional IDS solutions typically rely on centralized learning architectures, where data from edge nodes are transferred to central servers for analysis. This approach is effective but introduces major risks to the privacy of IoT data. Artificial intelligence (AI), specifically federated learning (FL), is a new frontier that offers an alternative option by enabling the direct implementation of distributed ML on IoT devices without requiring the sharing of raw data. FL supports decentralized and privacy-preserving learning, which makes it a critical instrument for enhancing the security of IoT ecosystems. Data security and privacy research in FL is increasingly becoming popular. However, the development of FL for IoT remains in its infancy and requires exploration in various areas. Moreover, current survey studies are limited and overlook the vital aspects of FL, particularly the diversity of datasets and the most recent methodologies employed in FL-enabled IDSs. This study conducts a systematic literature review that examines 43 studies published between 2020 and 2024. The focus revolves around recent advancements in applying AI to intrusion detection within IoT environments. This study comprehensively analyzes key ML models and datasets used to develop an IDS tailored for IoT systems. The review also explores emerging trends, challenges, and opportunities in implementing FL-based IDSs in IoT networks. The findings highlight the potential of FL to tackle pressing privacy and security challenges while enabling scalable and adaptive threat detection solutions. The study highlights important research gaps and proposes critical future directions to advance the field.",
+        "authors": [
+          {
+            "authorId": "2126103333",
+            "name": "Nuha A. Hamad"
+          },
+          {
+            "authorId": "3026929",
+            "name": "K. A. Bakar"
+          },
+          {
+            "authorId": "1944285074",
+            "name": "Faizan Qamar"
+          },
+          {
+            "authorId": "10771147",
+            "name": "A. M. Jubair"
+          },
+          {
+            "authorId": "2275113358",
+            "name": "Rajina R. Mohamed"
+          },
+          {
+            "authorId": "2237113446",
+            "name": "Mohamad Afendee Mohamed"
+          }
+        ],
+        "year": 2025,
+        "venue": "IEEE Access",
+        "citationCount": 7,
+        "url": "https://www.semanticscholar.org/paper/8bbd15f67c6699a55022e26cfa099f550e4b78ab",
+        "source": "SemanticScholar"
+      }
+    ],
+    "timestamp": "2026-01-27T10:18:15.843572+00:00"
+  }
+]
