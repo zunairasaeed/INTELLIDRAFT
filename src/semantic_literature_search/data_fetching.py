@@ -33,6 +33,16 @@ def _get_env(key: str, default: str | None = None) -> str | None:
     return _load_env_file().get(key, default)
 
 
+def _normalize_api_key(raw: str | None) -> str | None:
+    """Strip whitespace and optional surrounding quotes — common .env mistake that causes 403."""
+    if not raw:
+        return None
+    s = raw.strip()
+    if len(s) >= 2 and s[0] == s[-1] and s[0] in ('"', "'"):
+        s = s[1:-1].strip()
+    return s if s else None
+
+
 async def fetch_papers(
     query: str,
     limit: int = 10,
@@ -41,8 +51,8 @@ async def fetch_papers(
     min_interval_seconds: float = 1.0,
     max_retries: int = 3,
 ) -> Dict[str, Any]:
-    api_key = _get_env("SEMANTIC_SCHOLAR_API_KEY") or _get_env(
-        "SEMANTICSCHOLAR_API_KEY"
+    api_key = _normalize_api_key(
+        (_get_env("SEMANTIC_SCHOLAR_API_KEY") or _get_env("SEMANTICSCHOLAR_API_KEY"))
     )
     if not api_key:
         raise RuntimeError("SEMANTIC_SCHOLAR_API_KEY is required.")
@@ -65,6 +75,13 @@ async def fetch_papers(
         for attempt in range(1, max_retries + 1):
             await asyncio.sleep(min_interval_seconds)
             response = await client.get(search_url, params=params, headers=headers)
+            if response.status_code == 403:
+                raise RuntimeError(
+                    "Semantic Scholar returned 403 Forbidden — the server rejected your API key. "
+                    "Request a key at https://www.semanticscholar.org/product/api and set "
+                    "SEMANTIC_SCHOLAR_API_KEY in your project `.env` (no spaces or extra quotes "
+                    "around the value). Restart the API after fixing."
+                )
             if response.status_code in {429, 504}:
                 if attempt == max_retries:
                     raise RuntimeError("Semantic Scholar rate limit or timeout.")

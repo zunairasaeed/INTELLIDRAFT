@@ -4,6 +4,7 @@ venv/
 # models / ML artifacts
 models/
 model/
+database/paper_guide_rag.faiss
 
 # caches
 __pycache__/

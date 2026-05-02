@@ -2,43 +2,46 @@ import os
 from pathlib import Path
 from typing import Optional
 
-from llama_cpp import Llama
+from dotenv import load_dotenv
+from groq import Groq
 
-_LLM_INSTANCE: Optional[Llama] = None
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
-
-def _get_model_path() -> str:
-    env_path = os.getenv("LLM_MODEL_PATH")
-    if env_path:
-        return env_path
-    project_root = Path(__file__).resolve().parent
-    return str(project_root / "models" / "llama" / "llama-3.2-1b-q4.gguf")
-
-
-def _get_llm() -> Llama:
-    global _LLM_INSTANCE
-    if _LLM_INSTANCE is None:
-        model_path = _get_model_path()
-        _LLM_INSTANCE = Llama(model_path=model_path)
-    return _LLM_INSTANCE
+_client: Optional[Groq] = None
+def _get_client() -> Groq:
+    global _client
+    if _client is None:
+        _client = Groq(api_key=os.environ["GROQ_API_KEY"])
+    return _client
 
 
 def call_gpt(
-    prompt: str,
-    max_tokens: int = 256,
+    prompt: str = "",
+    max_tokens: int = 512,
     temperature: float = 0.2,
-    stop: Optional[list[str]] = None,
+    stop: Optional[list] = None,
+    system_prompt: Optional[str] = None,
+    user_prompt: Optional[str] = None,
+    model: str = "llama-3.3-70b-versatile",
 ) -> str:
-    llm = _get_llm()
-    response = llm(
-        prompt=prompt,
+    if system_prompt or user_prompt:
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": user_prompt or prompt})
+    else:
+        messages = [{"role": "user", "content": prompt}]
+
+    response = _get_client().chat.completions.create(
+        model=model,
+        messages=messages,
         max_tokens=max_tokens,
         temperature=temperature,
         stop=stop,
     )
-    return response["choices"][0]["text"].strip()
+    return response.choices[0].message.content or ""
 
 
 if __name__ == "__main__":
-    user_prompt = input("Enter prompt: ").strip()
-    print(call_gpt(user_prompt))
+    user_input = input("Enter prompt: ").strip()
+    print(call_gpt(prompt=user_input))

@@ -1,0 +1,141 @@
+{
+  "publishers": {
+    "ACM": {
+      "full_name": "Association for Computing Machinery",
+      "core_strength": "Computing theory, systems, human-computer interaction, software engineering",
+      "best_for_fields": [
+        "Human-Computer Interaction (HCI)",
+        "Software Engineering",
+        "Programming Languages",
+        "Algorithms & Theory (applied focus)",
+        "Computer Graphics & Visualization",
+        "Ubiquitous & Wearable Computing",
+        "Formal Methods",
+        "AI/ML with HCI or systems focus"
+      ],
+      "not_ideal_for": [
+        "Hardware design",
+        "Circuit-level engineering",
+        "Clinical medical studies without CS contribution"
+      ],
+      "example_conferences": ["CHI", "SIGGRAPH", "OOPSLA", "PLDI", "KDD (systems-focused)"],
+      "official_journal_portal": "https://dl.acm.org/journals"
+    },
+    "IEEE": {
+      "full_name": "Institute of Electrical and Electronics Engineers",
+      "core_strength": "Engineering, hardware, networks, embedded systems, applied signal processing",
+      "best_for_fields": [
+        "Computer Networking (5G/6G, SDN, protocols)",
+        "Embedded Systems & Cyber-Physical Systems (CPS)",
+        "IoT (hardware + systems layer)",
+        "Cybersecurity (network/hardware/systems security)",
+        "Signal Processing & Wireless Communications",
+        "Quantum Computing (hardware/devices)",
+        "Robotics (control, sensing, real-time systems)",
+        "AI in edge/fog computing or medical devices"
+      ],
+      "not_ideal_for": [
+        "Pure theoretical CS without engineering angle",
+        "UX design without technical system integration"
+      ],
+      "example_journals": ["IEEE Transactions on Computers", "IEEE IoT Journal", "IEEE TIFS (Security)"],
+      "official_journal_portal": "https://publication-recommender.ieee.org/home"
+    },
+    "Springer": {
+      "full_name": "Springer Nature",
+      "core_strength": "Theoretical, mathematical, and foundational computer science; interdisciplinary modeling",
+      "best_for_fields": [
+        "Theoretical Computer Science",
+        "Machine Learning Theory",
+        "Optimization & Statistical Learning",
+        "Algorithmic Game Theory",
+        "Computational Complexity",
+        "AI in Economics (model-driven)",
+        "Computational Social Science (simulation/theory)",
+        "Formal verification & logic"
+      ],
+      "not_ideal_for": [
+        "Applied engineering prototypes",
+        "Empirical UX studies without theoretical framing",
+        "Product-focused case studies"
+      ],
+      "example_series": ["Lecture Notes in Computer Science (LNCS)", "Journal of Machine Learning Research (co-published)"],
+      "official_journal_portal": "https://link.springer.com/journals/browse-subject?subject=TECHNOLOGY_AND_ENGINEERING"
+    },
+    "Elsevier": {
+      "full_name": "Elsevier",
+      "core_strength": "Applied, interdisciplinary research with real-world impact; strong in domain integration",
+      "best_for_fields": [
+        "Applied Artificial Intelligence",
+        "Deep Learning Applications (healthcare, finance, etc.)",
+        "Bioinformatics & Computational Biology",
+        "AI in Medicine (diagnostics, clinical prediction)",
+        "Business Analytics & Decision Support Systems",
+        "AI in Social Sciences (policy, behavior, large-scale data)",
+        "Data Science (applied datasets, pipelines)",
+        "AI in Economics (forecasting, econometrics)"
+      ],
+      "not_ideal_for": [
+        "Pure hardware design",
+        "Low-level protocol specification without application context"
+      ],
+      "example_journals": ["Artificial Intelligence", "Pattern Recognition", "Information Sciences", "Computers in Biology and Medicine"],
+      "official_journal_portal": "https://journalfinder.elsevier.com/"
+    }
+  },
+  "field_to_publishers_mapping": {
+    "Artificial Intelligence (General)": {
+      "primary": ["Elsevier", "Springer"],
+      "secondary": ["ACM", "IEEE"],
+      "note": "Depends on focus: theory → Springer; applications → Elsevier; systems/HCI → ACM; edge/embedded → IEEE"
+    },
+    "Machine Learning": {
+      "primary": ["Springer", "Elsevier"],
+      "secondary": ["ACM"],
+      "note": "Theory → Springer; applied (e.g., healthcare, finance) → Elsevier; systems/ML infrastructure → ACM"
+    },
+    "Cybersecurity": {
+      "primary": ["IEEE"],
+      "secondary": ["ACM", "Elsevier"],
+      "note": "Network/systems security → IEEE; formal methods/crypto → ACM; applied threat analysis in domains → Elsevier"
+    },
+    "Internet of Things (IoT)": {
+      "primary": ["IEEE"],
+      "secondary": ["ACM", "Elsevier"],
+      "note": "Hardware, protocols, CPS → IEEE; smart environments with HCI → ACM; societal/health applications → Elsevier"
+    },
+    "Human-Computer Interaction (HCI)": {
+      "primary": ["ACM"],
+      "secondary": ["Elsevier"],
+      "note": "Core HCI, UX, accessibility → ACM; behavioral/social impact studies → Elsevier"
+    },
+    "Software Engineering": {
+      "primary": ["ACM"],
+      "secondary": ["IEEE", "Elsevier"],
+      "note": "Testing, debugging, formal methods → ACM; embedded/real-time SE → IEEE; industrial case studies → Elsevier"
+    },
+    "Computer Networking": {
+      "primary": ["IEEE"],
+      "secondary": ["ACM"],
+      "note": "Protocols, 5G/6G, wireless → IEEE; theoretical algorithms/network theory → ACM"
+    },
+    "Theoretical Computer Science": {
+      "primary": ["Springer"],
+      "secondary": ["ACM"],
+      "note": "Algorithms, complexity, logic → Springer (LNCS); applied theory → ACM"
+    },
+    "Data Science": {
+      "primary": ["Elsevier"],
+      "secondary": ["ACM", "Springer"],
+      "note": "Real-world data applications → Elsevier; scalable systems → ACM; statistical foundations → Springer"
+    },
+    "Quantum Computing": {
+      "primary": {
+        "algorithms": "ACM",
+        "hardware": "IEEE"
+      },
+      "secondary": ["Springer"],
+      "note": "Split by sub-area: ACM for algorithms, IEEE for devices/architectures"
+    }
+  }
+}

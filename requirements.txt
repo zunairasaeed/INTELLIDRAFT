@@ -1,21 +1,42 @@
+# =========================
 # Core Frameworks
-Django
-fastapi
-uvicorn
+# =========================
+Django>=4.2
+fastapi>=0.110
+uvicorn>=0.27
 
-# LangChain & Utilities
-langchain
-langchain-community
+# =========================
+# LangChain
+# =========================
+langchain>=0.1.20
+langchain-community>=0.0.30
 
-# LLaMA 3.2 (CPU)
-llama-cpp-python
+# =========================
+# Local LLaMA (CPU)
+# =========================
+llama-cpp-python>=0.2.50
 
+# =========================
 # Embeddings & Vector Search
-sentence-transformers
-faiss-cpu
+# =========================
+sentence-transformers>=2.6.0
+faiss-cpu>=1.8.0
 
+# =========================
+# Math & Utilities
+# =========================
+numpy>=1.26
+nltk>=3.8
+
+# =========================
 # API & Helper Libraries
-requests
-python-dotenv
-pydantic
-pymongo
+# =========================
+requests>=2.31.0
+python-dotenv>=1.0.1
+pydantic>=2.6.0
+pymongo>=4.6.0
+faiss-cpu
+groq
+openai
+supabase
+pthon-multipart

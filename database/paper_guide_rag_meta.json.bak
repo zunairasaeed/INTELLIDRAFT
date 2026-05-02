@@ -1,0 +1,500 @@
+{
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "index_type": "IndexFlatIP",
+  "metric": "cosine_via_normalized_inner_product",
+  "max_chunk_chars": 900,
+  "chunk_overlap": 120,
+  "source_json": "D:/INTELLIDRAFT/database/paper_guide.json",
+  "num_vectors": 61,
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "section_id": "document_metadata",
+      "section_title": "Writing and Publishing Paper Guide",
+      "subsection_id": null,
+      "subsection_title": null,
+      "text": "Document: Writing and Publishing Paper Guide. Purpose: Guide for researchers on writing, publishing, and peer reviewing academic papers. Audience: Beginner researchers, graduate students, academics. Type: PDF Guide"
+    },
+    {
+      "chunk_id": 1,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_01",
+      "subsection_title": "Preparation Before Writing",
+      "text": "Section: How to Write a Research Paper\nSubsection: Preparation Before Writing\nTags: writing process, paper structure, efficiency, writer's block\nContent: Emphasizes the importance of having all materials ready before starting to write, comparing it to cooking where ingredients must be prepped in advance. Critical items include findings fully analyzed and finalized, and figures and tables completed and organized. Advises against starting to write the paper before having these core elements ready, as writing should be the final 10% of the project. Warns that starting to write too early leads to confusion and inefficiency.\nKey points: Finalize findings before writing; Complete figures and tables first; Writing is the final 10% of the project; Avoids confusion and inefficiency"
+    },
+    {
+      "chunk_id": 2,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_02",
+      "subsection_title": "Write the Paper Inside Out",
+      "text": "Section: How to Write a Research Paper\nSubsection: Write the Paper Inside Out\nTags: writing process, paper structure, efficiency, writer's block\nContent: Stuckler asserts that trying to write the paper linearly from Introduction → Methods → Results → Conclusion is a major mistake and causes writer's block. Instead, start with the Methods section, which is often the easiest to write and helps build momentum. After Methods, write the Results section, focusing on describing your tables, figures, and key findings in a clear and logical order. The goal is to create a coherent narrative centered around your data to show readers and journal editors the story your research tells. This reverse approach helps avoid getting stuck and accelerates progress.\nKey points: Avoid linear writing (Intro → Conclusion); Start with Methods section; Follow with Results section; Create coherent narrative around"
+    },
+    {
+      "chunk_id": 3,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_02",
+      "subsection_title": "Write the Paper Inside Out",
+      "text": "writing (Intro → Conclusion); Start with Methods section; Follow with Results section; Create coherent narrative around data"
+    },
+    {
+      "chunk_id": 4,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_03",
+      "subsection_title": "Write the Conclusion Early",
+      "text": "Section: How to Write a Research Paper\nSubsection: Write the Conclusion Early\nTags: writing process, paper structure, efficiency, writer's block\nContent: Contrary to common practice, write the Conclusion before the Introduction. The Conclusion typically has a formulaic structure with multiple clearly defined components: 1. Recap your key findings succinctly without detailed explanation. 2. List and discuss the limitations of your study transparently. This is a strategic move to preempt reviewer criticisms and demonstrate awareness of your study's weaknesses. Stuckler recommends listing limitations clearly and simply (e.g., 'first,' 'second,' 'third'). 3. Explain the implications for future research based on your findings. 4. Outline any potential policy or practical interventions relevant to your field. This structured conclusion provides a strong foundation for the rest of the paper.\nKe"
+    },
+    {
+      "chunk_id": 5,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_03",
+      "subsection_title": "Write the Conclusion Early",
+      "text": "erventions relevant to your field. This structured conclusion provides a strong foundation for the rest of the paper.\nKey points: Write Conclusion before Introduction; Recap key findings succinctly; List limitations transparently to preempt criticism; Explain implications for future research; Outline policy or practical interventions"
+    },
+    {
+      "chunk_id": 6,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_04",
+      "subsection_title": "Write the Introduction Last",
+      "text": "Section: How to Write a Research Paper\nSubsection: Write the Introduction Last\nTags: writing process, paper structure, efficiency, writer's block\nContent: The Introduction is often the most difficult part and a major stumbling block. It has a three-part structure: 1. Establish relevance: Explain why the topic matters now, highlighting its current importance broadly or within the field. 2. Identify gaps: Discuss the weaknesses or missing elements in existing literature, supported by a brief literature review citing prior studies. 3. Present your study's value: Clearly articulate how your research addresses these gaps and the unique contribution it makes. Writing the introduction last allows you to tailor it precisely after having clearly defined your methods, results, and conclusions.\nKey points: Write Introduction last; Establish relevance and current importance; Identify gaps in existin"
+    },
+    {
+      "chunk_id": 7,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_04",
+      "subsection_title": "Write the Introduction Last",
+      "text": "d conclusions.\nKey points: Write Introduction last; Establish relevance and current importance; Identify gaps in existing literature; Present study's unique value and contribution"
+    },
+    {
+      "chunk_id": 8,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_05",
+      "subsection_title": "Key Insights and Takeaways",
+      "text": "Section: How to Write a Research Paper\nSubsection: Key Insights and Takeaways\nTags: writing process, paper structure, efficiency, writer's block\nContent: Writing order matters: Writing 'inside out' (Methods → Results → Conclusion → Introduction) is far more efficient than linear writing. Preparation is crucial: Completing all data analysis, figures, and tables before writing saves time and reduces frustration. Transparent limitations: Openly discussing study limitations strengthens the paper by anticipating reviewer concerns. Formulaic conclusion: Following a structured conclusion format streamlines writing and enhances clarity. Iterative refinement: Accept imperfect first drafts and polish over time to overcome perfectionism and writer's block. Introduction last: Writing the introduction last ensures it is targeted and relevant after the rest of the paper is drafted.\nKey points: Inside"
+    },
+    {
+      "chunk_id": 9,
+      "section_id": "sec_01",
+      "section_title": "How to Write a Research Paper",
+      "subsection_id": "sec_01_05",
+      "subsection_title": "Key Insights and Takeaways",
+      "text": "ng the introduction last ensures it is targeted and relevant after the rest of the paper is drafted.\nKey points: Inside out writing order is efficient; Preparation saves time; Transparent limitations strengthen paper; Accept imperfect first drafts"
+    },
+    {
+      "chunk_id": 10,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_01",
+      "subsection_title": "What is a Literature Review?",
+      "text": "Section: Literature Review Guide\nSubsection: What is a Literature Review?\nTags: literature review, research synthesis, PEER system, conceptual framework\nContent: A literature review is likened to catching up with an old friend after many years, where you learn about key developments, challenges, and opportunities from their life. Similarly, a literature review synthesizes key concepts, current knowledge, gaps, debates, and potential contributions within a specific academic field or topic. It provides a snapshot of the state of the art and highlights areas where further research is needed.\nKey points: Synthesizes key concepts and current knowledge; Identifies gaps and debates; Provides snapshot of state of the art"
+    },
+    {
+      "chunk_id": 11,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_02",
+      "subsection_title": "Step 1: Dive Straight In – Starting Your Search",
+      "text": "Section: Literature Review Guide\nSubsection: Step 1: Dive Straight In – Starting Your Search\nTags: literature review, research synthesis, PEER system, conceptual framework\nContent: Avoid 'paralysis by analysis' by starting immediately with exploratory searches, even if you know little about the topic. Use Google Scholar for initial searches to identify top papers and key contributors in your field. Example given: searching 'inequality and health' to retrieve highly cited or recent influential papers. Download PDFs of about 10-15 relevant papers to begin the reading and summarizing process. Note: Systematic reviews require different techniques; a separate video is referenced for that method.\nKey points: Start immediately with exploratory searches; Use Google Scholar for top papers; Download 10-15 relevant papers; Avoid paralysis by analysis"
+    },
+    {
+      "chunk_id": 12,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_03",
+      "subsection_title": "Step 2: The Strip Method – Extracting Key Information",
+      "text": "Section: Literature Review Guide\nSubsection: Step 2: The Strip Method – Extracting Key Information\nTags: literature review, research synthesis, PEER system, conceptual framework\nContent: Create a Word document with citations listed for each paper to avoid plagiarism and maintain organization. Carefully read each paper, especially abstracts and key sections, and extract (strip out) relevant points and findings. This initial extraction will look messy but is essential for gathering raw material. Include direct quotes with quotation marks to preserve original meaning and attribution. Summarize: What the authors did, Their findings, Suggestions for future research, Contradictory evidence if present. This phase also helps you begin to identify patterns and structure emerging from the literature.\nKey points: List citations to avoid plagiarism; Extract relevant points and findings; Include dire"
+    },
+    {
+      "chunk_id": 13,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_03",
+      "subsection_title": "Step 2: The Strip Method – Extracting Key Information",
+      "text": "from the literature.\nKey points: List citations to avoid plagiarism; Extract relevant points and findings; Include direct quotes with attribution; Summarize actions, findings, and future research"
+    },
+    {
+      "chunk_id": 14,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_04",
+      "subsection_title": "Step 3: Develop a Conceptual Framework – Structuring Your Review",
+      "text": "Section: Literature Review Guide\nSubsection: Step 3: Develop a Conceptual Framework – Structuring Your Review\nTags: literature review, research synthesis, PEER system, conceptual framework\nContent: The conceptual framework forms the backbone or skeleton of your literature review, organizing the information into a coherent structure. Various approaches to structuring include: Chronological order (useful for historical or developmental topics), Problem-to-solution (progressing from describing an issue to discussing proposed solutions), Levels of analysis (e.g., individual-level evidence followed by population-level evidence), Thematic breakdown (grouping by key themes or debates within the field). After deciding on the structure, use the snowball method to expand your search by following references cited in key papers to find more relevant studies and deepen your review.\nKey points: Framew"
+    },
+    {
+      "chunk_id": 15,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_04",
+      "subsection_title": "Step 3: Develop a Conceptual Framework – Structuring Your Review",
+      "text": "rch by following references cited in key papers to find more relevant studies and deepen your review.\nKey points: Framework forms the backbone of the review; Approaches: Chronological, Problem-to-solution, Levels of analysis, Thematic; Use snowball method to expand search"
+    },
+    {
+      "chunk_id": 16,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_05",
+      "subsection_title": "Step 4: Writing with the PEER System – Paragraph Structure",
+      "text": "Section: Literature Review Guide\nSubsection: Step 4: Writing with the PEER System – Paragraph Structure\nTags: literature review, research synthesis, PEER system, conceptual framework\nContent: The PEER system defines the anatomy of a strong academic paragraph: P (Point): Make one clear, concise claim or topic sentence. E (Evidence/Example): Provide supporting studies or data. E (Explain): Interpret the evidence, explaining its significance. R (Repeat/Link): Reinforce the point or transition smoothly to the next idea. Paragraphs should be clear, focused, and logically linked, building the argument progressively.\nKey points: P: Point (clear claim); E: Evidence (supporting studies); E: Explain (interpret significance); R: Repeat/Link (reinforce or transition)"
+    },
+    {
+      "chunk_id": 17,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_06",
+      "subsection_title": "Step 5: Conclusion and Introduction Writing Order",
+      "text": "Section: Literature Review Guide\nSubsection: Step 5: Conclusion and Introduction Writing Order\nTags: literature review, research synthesis, PEER system, conceptual framework\nContent: Contrary to common practice, write the conclusion before the introduction. The conclusion should include four key components: 1. Summary of findings: Recap the state of knowledge and key insights from the review. 2. Limitations: Discuss weaknesses or gaps either in your review or in the literature itself (e.g., limited papers, methodological weaknesses). This transparency helps anticipate criticism and improve credibility. 3. Future research directions: Suggest areas needing further investigation based on identified gaps. 4. Policy/practice implications: If applicable, propose how findings might inform action or decision-making. The introduction should engage the reader by explaining why the topic matters no"
+    },
+    {
+      "chunk_id": 18,
+      "section_id": "sec_02",
+      "section_title": "Literature Review Guide",
+      "subsection_id": "sec_02_06",
+      "subsection_title": "Step 5: Conclusion and Introduction Writing Order",
+      "text": "might inform action or decision-making. The introduction should engage the reader by explaining why the topic matters now— the urgency or significance of the debate. Typical structure: Context and relevance, Gaps and debates, Purpose and scope. Writing the introduction last ensures clarity and coherence since the review's findings and structure are fully formed.\nKey points: Write conclusion before introduction; Conclusion components: Summary, Limitations, Future directions, Implications; Introduction components: Context, Gaps, Purpose; Writing intro last ensures coherence"
+    },
+    {
+      "chunk_id": 19,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_01",
+      "subsection_title": "Introduction to Manuscripts and Importance of Publishing",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Introduction to Manuscripts and Importance of Publishing\nTags: manuscript, publishing, submission, journal selection\nContent: A manuscript traditionally refers to any document written by hand or typewritten, as opposed to mechanically printed or reproduced automatically. Publishing a research paper is crucial because: It enhances public understanding of a research question. It establishes the author as an expert in their field of knowledge. Peer-reviewed publications provide evidence for evaluating the merit of research funding requests.\nKey points: Manuscript: handwritten or typewritten document; Enhances public understanding; Establishes author expertise; Supports funding requests"
+    },
+    {
+      "chunk_id": 20,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_02",
+      "subsection_title": "Manuscript Composition and Components",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Manuscript Composition and Components\nTags: manuscript, publishing, submission, journal selection\nContent: Once finalized, the draft becomes a manuscript, generally consisting of: Preliminary material, Body of the text, Reference list. For beginners, focus is placed on the preliminary material, which includes: Title (Should be concise, comprehensive, attractive, and specifically highlight the paper's focus), Authors (Author order indicates contribution; the first author contributed the most, others might be supervisors, co-researchers, or collaborators), Affiliations (Institutions where research was conducted; multiple affiliations are possible), Corresponding author (The primary contact for journal communication, listed on the front page or as a footnote), Keywords (Four to six selected words to facilitate retrieval of the research"
+    },
+    {
+      "chunk_id": 21,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_02",
+      "subsection_title": "Manuscript Composition and Components",
+      "text": "listed on the front page or as a footnote), Keywords (Four to six selected words to facilitate retrieval of the research, analogous to search keywords in online platforms).\nKey points: Components: Preliminary material, Body, Reference list; Title: Concise and attractive; Authors: Order indicates contribution; Keywords: 4-6 words for retrieval"
+    },
+    {
+      "chunk_id": 22,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_03",
+      "subsection_title": "Body of Manuscript and Key Sections",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Body of Manuscript and Key Sections\nTags: manuscript, publishing, submission, journal selection\nContent: The body includes: Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusion and Recommendations, Tables and Figures. The reference list is the final major component. A good manuscript typically has the following characteristics: Original and plagiarism-free content, Correct research methodology, including sampling design and statistical tools, Contribution to existing scientific knowledge, Ethical considerations addressed, Proper, effective writing style.\nKey points: Body sections: Abstract, Intro, Methods, Results, Discussion, Conclusion; Original and plagiarism-free; Correct methodology; Ethical considerations addressed"
+    },
+    {
+      "chunk_id": 23,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_04",
+      "subsection_title": "Journal Selection: Factors to Consider",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Journal Selection: Factors to Consider\nTags: manuscript, publishing, submission, journal selection\nContent: Selecting an appropriate journal requires in-depth research and careful consideration. Important factors to look for in a journal: Relevant to the researcher's discipline or area, Peer-reviewed by experts, Has an International Standard Serial Number (ISSN) for electronic and print formats, Indexed in a globally or nationally recognized database, Included in the UGC CARE list (especially relevant for Indian researchers), Journal has a history of at least 8 to 10 volumes (indicates stability and credibility), Authentic publishing house, Transparent fee structure (some charge, some do not).\nKey points: Relevant to discipline; Peer-reviewed and Indexed; Has ISSN; UGC CARE list inclusion; History of 8-10 volumes; Transparent fee st"
+    },
+    {
+      "chunk_id": 24,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_04",
+      "subsection_title": "Journal Selection: Factors to Consider",
+      "text": "to discipline; Peer-reviewed and Indexed; Has ISSN; UGC CARE list inclusion; History of 8-10 volumes; Transparent fee structure"
+    },
+    {
+      "chunk_id": 25,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_05",
+      "subsection_title": "Journal Selection: Factors to Avoid",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Journal Selection: Factors to Avoid\nTags: manuscript, publishing, submission, journal selection\nContent: Researchers should avoid journals that: Have poor quality or lack rigorous peer review, Do not follow standard publishing practices, Are not included in recognized indexing or UGC CARE lists, Are categorized as predatory or 'D3' journals, Demand immediate payments upon submission, Promise unrealistically fast publication (within a few days).\nKey points: Avoid poor quality or lack of peer review; Avoid non-indexed journals; Avoid predatory or 'D3' journals; Avoid immediate payment demands; Avoid unrealistic fast publication promises"
+    },
+    {
+      "chunk_id": 26,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_06",
+      "subsection_title": "Manuscript Preparation According to Journal Guidelines",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Manuscript Preparation According to Journal Guidelines\nTags: manuscript, publishing, submission, journal selection\nContent: After selecting a journal, the manuscript must be formatted per the journal's author guidelines found on the journal's website. Key formatting aspects to adjust: Font type, size, and spacing, In-text citation style (e.g., author-year system or numbered references in superscript or brackets), Reference list formatting and completeness (all cited in text must appear in the list and vice versa), Preparation and numbering of tables and figures, and their placement (within the text or at the end). Each journal has unique formatting requirements, so careful adherence is essential.\nKey points: Follow journal author guidelines; Adjust font, size, spacing; Match citation style; Format references and tables/figures corre"
+    },
+    {
+      "chunk_id": 27,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_06",
+      "subsection_title": "Manuscript Preparation According to Journal Guidelines",
+      "text": "journal author guidelines; Adjust font, size, spacing; Match citation style; Format references and tables/figures correctly"
+    },
+    {
+      "chunk_id": 28,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_07",
+      "subsection_title": "Manuscript Submission Process",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Manuscript Submission Process\nTags: manuscript, publishing, submission, journal selection\nContent: Researchers must follow instructions on: File format (single Word file, PDF, or section-wise files), Submission mode: either via email or through a journal's online portal (requiring registration and login). Along with the manuscript, additional documents may be required, including: Cover letter (Explains purpose of submission, addressed to the editor), Declaration letter (Confirms manuscript has not been published elsewhere), Suggested reviewers (Some journals ask authors to recommend 2-3 expert reviewers), Funding information (Discloses financial support for the research), Author contributions (Brief professional details or roles of contributing authors), Copyright form (Signed by all authors to transfer copyright, mandatory either a"
+    },
+    {
+      "chunk_id": 29,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_07",
+      "subsection_title": "Manuscript Submission Process",
+      "text": "tails or roles of contributing authors), Copyright form (Signed by all authors to transfer copyright, mandatory either at submission or post-acceptance), Conflict of interest and ethical statements, if applicable.\nKey points: Follow file format and submission mode instructions; Include Cover letter and Declaration letter; Provide Suggested reviewers and Funding information; Include Author contributions and Copyright form; Include Conflict of interest statements"
+    },
+    {
+      "chunk_id": 30,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_08",
+      "subsection_title": "Initial Steps to Publish (Registration)",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Initial Steps to Publish (Registration)\nTags: manuscript, publishing, submission, journal selection\nContent: To publish a manuscript: 1. Select the journal where you want to submit your manuscript. 2. Since it is your first submission to this journal, register yourself on the journal's platform. 3. During registration, provide all required information such as: Name, Affiliation, Other necessary details. 4. Complete registration by clicking the finish button. After registration, go to the journal's main page and: 1. Click on 'Submit the paper'. 2. Login using your username and password. 3. Access your author dashboard and start submitting your manuscript.\nKey points: Select journal; Register on platform; Provide name and affiliation; Login and access author dashboard"
+    },
+    {
+      "chunk_id": 31,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_09",
+      "subsection_title": "Detailed Submission Steps",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Detailed Submission Steps\nTags: manuscript, publishing, submission, journal selection\nContent: The submission process is divided into multiple steps: Step 1: Enter the title and abstract of the manuscript. Step 2: Upload the manuscript files, including tables and figures. Step 3: Add co-authors and their affiliations. Step 4: Provide additional manuscript details such as: Number of words, Number of figures, Number of tables. Step 5: Review all entered information carefully. The system generates a PDF version of the manuscript for proofreading. Add keywords relevant to your research. Attach a cover letter for submission. Authors must proofread the generated PDF and correct any mistakes before final submission. Once satisfied, the author clicks submit to officially send the manuscript to the journal.\nKey points: Enter title and abstra"
+    },
+    {
+      "chunk_id": 32,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_09",
+      "subsection_title": "Detailed Submission Steps",
+      "text": "satisfied, the author clicks submit to officially send the manuscript to the journal.\nKey points: Enter title and abstract; Upload files (tables/figures); Add co-authors; Enter manuscript details (word count, etc.); Proofread generated PDF; Add keywords and cover letter; Final submit"
+    },
+    {
+      "chunk_id": 33,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_10",
+      "subsection_title": "Post-Submission Process and Timeline",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Post-Submission Process and Timeline\nTags: manuscript, publishing, submission, journal selection\nContent: After submission: The author receives a confirmation email with a manuscript ID, confirming the journal has received the paper. The editor reviews the manuscript for suitability. If the manuscript is: Suitable: It is sent for peer review, which can take several months depending on the journal. Not suitable: It is rejected. Upon acceptance: The author receives an acceptance email. The author proofreads and finalizes the manuscript version for publication. The paper is then published within a few days after final proofreading.\nKey points: Receive confirmation email with ID; Editor reviews for suitability; Peer review takes several months; Acceptance leads to final proofreading; Publication within few days after proofing"
+    },
+    {
+      "chunk_id": 34,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_11",
+      "subsection_title": "Post-submission: Evaluation and Decision",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Post-submission: Evaluation and Decision\nTags: manuscript, publishing, submission, journal selection\nContent: After submission, the journal acknowledges receipt with an acknowledgement letter. The manuscript undergoes peer review by experts, which may take months or longer. Possible editorial decisions communicated to the corresponding author include: Acceptance for publication (with an acceptance letter), Rejection (with a non-acceptance letter), Revision requests: Reviewers may ask for clarifications or additional information; authors revise accordingly. Revisions improve manuscript quality, and this process may repeat multiple times before final acceptance.\nKey points: Acknowledgement letter received; Peer review by experts; Decisions: Acceptance, Rejection, Revision; Revisions may repeat multiple times"
+    },
+    {
+      "chunk_id": 35,
+      "section_id": "sec_03",
+      "section_title": "Manuscripts and Publishing Process",
+      "subsection_id": "sec_03_12",
+      "subsection_title": "Final Stage: Publication and Galley Proof",
+      "text": "Section: Manuscripts and Publishing Process\nSubsection: Final Stage: Publication and Galley Proof\nTags: manuscript, publishing, submission, journal selection\nContent: Once accepted, the manuscript is professionally edited and formatted according to the journal's style. Authors receive a galley proof—a near-final version for proofreading. Authors must carefully check for: Spelling errors, Missing pages or content, Correct placement of figures, tables, and text. Any errors or omissions must be reported immediately for correction. After approval of the galley proof by both parties, the manuscript is officially published as a research paper.\nKey points: Professional editing and formatting; Receive galley proof; Check for spelling, missing content, placement; Report errors immediately; Official publication after approval"
+    },
+    {
+      "chunk_id": 36,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_01",
+      "subsection_title": "IMRD Structure of Scientific Manuscripts",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: IMRD Structure of Scientific Manuscripts\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: Introduction: Explains the rationale and why the research question was pursued. Methods: Describes what was done to answer the research question in detail. Results: Presents the findings without interpretation. Discussion: Interprets the findings, putting them into context and meaning.\nKey points: Introduction: Rationale; Methods: What was done; Results: Findings without interpretation; Discussion: Interpretation and context"
+    },
+    {
+      "chunk_id": 37,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_02",
+      "subsection_title": "Introduction Section Details",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Introduction Section Details\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: In the Introduction, the goal is to focus the reader's attention amid many distractions and provide: Background of the research area. Identification of knowledge gaps. The rationale for the study. Specific objectives the research seeks to answer. This section sets the context and prepares the reader for the study's importance.\nKey points: Provide background; Identify knowledge gaps; State rationale; Define specific objectives"
+    },
+    {
+      "chunk_id": 38,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_03",
+      "subsection_title": "Methods Section Details",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Methods Section Details\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: The Methods section explains the research process in clear, stepwise detail, providing: Study setting and context (important for international readers). Study design. Operational definitions. Sampling strategy and sample size. Study procedures (data collection, investigations). Data management (collection and analysis). Ethical considerations and human participant protections. Methods vary by study design but must provide transparency and reproducibility to ensure credibility.\nKey points: Study setting and context; Study design and operational definitions; Sampling strategy and size; Data management and procedures; Ethical considerations; Ensure transparency and reproducibility"
+    },
+    {
+      "chunk_id": 39,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_04",
+      "subsection_title": "Results Section Details",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Results Section Details\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: The Results section is typically the briefest, focused solely on what was found without interpretation. Results may be presented using: Text, Tables, Figures, Graphs, Images. Authors must avoid repeating information and adhere strictly to journal guidelines on the number and types of displays. Interpretation is reserved for the Discussion section.\nKey points: Focused on findings without interpretation; Use Text, Tables, Figures, Graphs, Images; Avoid repeating information; Adhere to journal guidelines on displays"
+    },
+    {
+      "chunk_id": 40,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_05",
+      "subsection_title": "Discussion Section Details",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Discussion Section Details\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: The Discussion section is described as the most important and intellectually demanding part, where the researcher: Summarizes key findings briefly (not more than three lines). Offers interpretations and inferences. Compares findings with existing literature (while avoiding overemphasis on comparisons). Key advice: Balance between comparing with literature and emphasizing your own interpretations—this section reveals the researcher's independent thinking. Within the Discussion, also address: Strengths of the study, such as novel methodologies, design, or unique contexts. Limitations, reported honestly and with commentary on how they may affect results. Following this, provide: Conclusions: The central take-home message aligned with"
+    },
+    {
+      "chunk_id": 41,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_05",
+      "subsection_title": "Discussion Section Details",
+      "text": "entary on how they may affect results. Following this, provide: Conclusions: The central take-home message aligned with primary objectives. Recommendations: Practical advice for policymakers, clinicians, or other stakeholders based on conclusions.\nKey points: Summarize key findings briefly; Offer interpretations and inferences; Compare with literature; Address Strengths and Limitations; Provide Conclusions and Recommendations"
+    },
+    {
+      "chunk_id": 42,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_06",
+      "subsection_title": "Abstract and Keywords",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Abstract and Keywords\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: Abstract is described as a miniature manuscript and the most commonly read part. It can be: Structured abstract (Divided into Introduction, Methods, Results, and Conclusions), Unstructured abstract (A summary without explicit subheadings), Plain language summary (For lay readers or the general public). Abstracts typically range from 100 to 350 words and require careful crafting since many readers base their decision to read further on the abstract. Keywords are critical for indexing and ensuring discoverability in search engines. Selecting correct and relevant keywords: Helps the article be found by targeted searches. Increases the likelihood of being read and cited.\nKey points: Abstract: Miniature manuscript; Types: Structured, Unstruc"
+    },
+    {
+      "chunk_id": 43,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_06",
+      "subsection_title": "Abstract and Keywords",
+      "text": "Increases the likelihood of being read and cited.\nKey points: Abstract: Miniature manuscript; Types: Structured, Unstructured, Plain language; Length: 100-350 words; Keywords critical for indexing and discoverability"
+    },
+    {
+      "chunk_id": 44,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_07",
+      "subsection_title": "References and Argument Matrix",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: References and Argument Matrix\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: References must credit all sources used, focusing on relevant and recent literature. Important points include: Use of reference management software to ease formatting. Awareness of different referencing styles such as Vancouver or Harvard. Proper in-text citations linked with reference lists at the manuscript end. IMRD structure and Argument Matrix, which: Organizes 2 or 3 central ideas logically across each manuscript section. Ensures continuity and flow of ideas from Introduction through Methods, Results, and Discussion. Helps maintain a linear and coherent narrative.\nKey points: Credit all sources; Use reference management software; Follow referencing styles (Vancouver/Harvard); Argument Matrix organizes central ideas across"
+    },
+    {
+      "chunk_id": 45,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_07",
+      "subsection_title": "References and Argument Matrix",
+      "text": "rence management software; Follow referencing styles (Vancouver/Harvard); Argument Matrix organizes central ideas across sections"
+    },
+    {
+      "chunk_id": 46,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_08",
+      "subsection_title": "Finalizing the Manuscript",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Finalizing the Manuscript\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: Finalizing the manuscript by adding essential supplementary information: Title page (authors, affiliations, word count). Cover letter. Funding source declaration. Conflict of interest statement. Author contributions (adhering to ICMJE criteria). Appendices and supplementary files. Acknowledgments for contributors not qualifying for authorship. The lecture stresses plagiarism checks before submission to ensure originality and ethical compliance.\nKey points: Add Title page, Cover letter, Funding declaration; Include Conflict of interest and Author contributions; Add Appendices and Acknowledgments; Perform plagiarism checks"
+    },
+    {
+      "chunk_id": 47,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_09",
+      "subsection_title": "Scientific Writing Style and Six S's",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Scientific Writing Style and Six S's\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: To articulate content effectively, the lecturer recommends: Use simple, specific, and necessary words. Maintain consistent terminology. Use inclusive and non-offensive language, as some journals require explicit statements about this. Use precise word order and avoid passive voice. Keep sentences concise, avoiding long or convoluted structures. Submit manuscripts for scientific language editing (grammar, spelling, punctuation, structure) by professionals or specialized software. The lecture highlights the 'six S's' of scientific writing as guiding principles: Simple (Use straightforward language), Short (Keep sentences and text concise), Structured (Follow a clear organizational format), Sequential (Logical flow of ideas)"
+    },
+    {
+      "chunk_id": 48,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_09",
+      "subsection_title": "Scientific Writing Style and Six S's",
+      "text": "(Keep sentences and text concise), Structured (Follow a clear organizational format), Sequential (Logical flow of ideas), Strong (Use assertive, confident statements), Specific (Be precise and detailed).\nKey points: Use simple, specific words; Maintain consistent terminology; Use inclusive language; Avoid passive voice; Six S's: Simple, Short, Structured, Sequential, Strong, Specific"
+    },
+    {
+      "chunk_id": 49,
+      "section_id": "sec_04",
+      "section_title": "Manuscript Writing and Structure (IMRD)",
+      "subsection_id": "sec_04_10",
+      "subsection_title": "Theses and Dissertations",
+      "text": "Section: Manuscript Writing and Structure (IMRD)\nSubsection: Theses and Dissertations\nTags: IMRD, scientific writing, manuscript structure, six S's\nContent: A thesis is an extended, university-mandated document for postgraduate or doctoral degrees. It is primary research led by the scholar, guided by a mentor. Bound by university-specific guidelines. Can be converted into a manuscript for journal publication. Manuscripts and theses differ in length, word limits, target audience, and sometimes structure (thesis may include additional sections). Additional thesis-specific sections may include: Table of contents, List of abbreviations, List of tables and figures.\nKey points: Thesis: University-mandated document; Guided by mentor; Can be converted to manuscript; Differ in length and structure from manuscripts; May include Table of contents, Lists"
+    },
+    {
+      "chunk_id": 50,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_01",
+      "subsection_title": "How Peer Reviewers Are Found",
+      "text": "Section: Writing Peer Review Reports\nSubsection: How Peer Reviewers Are Found\nTags: peer review, reviewer guide, evaluation, feedback\nContent: This is a common question — editors find reviewers by: Looking at who published similar papers recently, Checking who is cited in the submitted paper, Using databases like Publons or Web of Science, Personal professional networks. Researchers can also volunteer to review on platforms like Publons (Clarivate). Communities by Field: PubMed/ MEDLINE (medical and life sciences), IEEE Xplore (engineering and technology), SSRN (social sciences, economics, law), PhilPapers (philosophy), ERIC (education research).\nKey points: Editors find reviewers via similar papers, citations, databases; Researchers can volunteer on Publons; Field-specific communities: PubMed, IEEE, SSRN, etc."
+    },
+    {
+      "chunk_id": 51,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_02",
+      "subsection_title": "Step 1: Overview",
+      "text": "Section: Writing Peer Review Reports\nSubsection: Step 1: Overview\nTags: peer review, reviewer guide, evaluation, feedback\nContent: Start the review by thanking the editors for the opportunity to review the paper, which is a customary academic practice. Provide a brief summary of the paper's topic and aims to demonstrate understanding and context. Example given: For a paper titled 'Virtual Reality and Digital Education: A Network of Forance Perspective on Effective Use,' an appropriate summary might be: The paper aims to enhance understanding of immersive technologies in digital learning. It reports results from an interview study and develops a theoretical framework to help educators integrate virtual reality into curricula.\nKey points: Thank editors; Provide brief summary of topic and aims; Demonstrate understanding"
+    },
+    {
+      "chunk_id": 52,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_03",
+      "subsection_title": "Step 2: State Your Expertise",
+      "text": "Section: Writing Peer Review Reports\nSubsection: Step 2: State Your Expertise\nTags: peer review, reviewer guide, evaluation, feedback\nContent: Reviews are always anonymous, but it is important that editors and authors understand the reviewer's background and expertise. Include 1-2 sentences describing your relevant research experience to establish credibility. Mention how you will structure the review and if any aspects will be de-emphasized due to your expertise. Example: 'Having contributed to several studies in virtual reality myself, I consider my expertise significant. However, as I primarily use quantitative methods, I will focus less on methodology and ask editors to seek other reviewers' opinions on this.' This transparency helps editors contextualize your comments and complements the overall review process.\nKey points: State background and expertise; Establish credibility; Menti"
+    },
+    {
+      "chunk_id": 53,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_03",
+      "subsection_title": "Step 2: State Your Expertise",
+      "text": "nts and complements the overall review process.\nKey points: State background and expertise; Establish credibility; Mention structure and any de-emphasized aspects; Helps editors contextualize comments"
+    },
+    {
+      "chunk_id": 54,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_04",
+      "subsection_title": "Step 3: Structuring the Main Sections of the Review",
+      "text": "Section: Writing Peer Review Reports\nSubsection: Step 3: Structuring the Main Sections of the Review\nTags: peer review, reviewer guide, evaluation, feedback\nContent: Two common ways to structure the main body of a review: 1. Chronological approach: Provide feedback on each section of the paper (introduction, literature review, methods, results, etc.). 2. Thematic approach (recommended): Organize the review around major points of criticism instead of following the paper's structure. The video strongly advises against the chronological method, stating it is not the approach used by experienced reviewers. Suggested structure involves identifying about 3 to 6 main points of critique, each given roughly equal attention. Example of main points: Theoretical motivation of the study, Lack of transparency in method description, Missing theoretical contribution.\nKey points: Avoid Chronological appr"
+    },
+    {
+      "chunk_id": 55,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_04",
+      "subsection_title": "Step 3: Structuring the Main Sections of the Review",
+      "text": "tudy, Lack of transparency in method description, Missing theoretical contribution.\nKey points: Avoid Chronological approach; Use Thematic approach (recommended); Identify 3-6 main points of critique; Give equal attention to each point"
+    },
+    {
+      "chunk_id": 56,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_05",
+      "subsection_title": "Step 4: Constructive Criticism",
+      "text": "Section: Writing Peer Review Reports\nSubsection: Step 4: Constructive Criticism\nTags: peer review, reviewer guide, evaluation, feedback\nContent: For each main point, structure your critique into three parts: 1. Positives — Start by noting what you liked about the paper related to this point. This balances the review and acknowledges the authors' efforts. 2. Negatives — Clearly state your criticisms, specifying exact parts of the text to help authors locate issues. 3. Suggestions for Improvement — The most crucial element; offer concrete, actionable advice to improve the paper. Suggestions can include: Recommending additional literature, Proposing stronger arguments, Suggesting methodological changes. Emphasizes the importance of remaining objective and constructive rather than harsh or overly negative.\nKey points: Structure: Positives, Negatives, Suggestions; Acknowledge authors' efforts"
+    },
+    {
+      "chunk_id": 57,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_05",
+      "subsection_title": "Step 4: Constructive Criticism",
+      "text": "er than harsh or overly negative.\nKey points: Structure: Positives, Negatives, Suggestions; Acknowledge authors' efforts; Specify exact text parts for issues; Offer concrete, actionable advice; Remain objective and constructive"
+    },
+    {
+      "chunk_id": 58,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_06",
+      "subsection_title": "Step 5: Minor Points",
+      "text": "Section: Writing Peer Review Reports\nSubsection: Step 5: Minor Points\nTags: peer review, reviewer guide, evaluation, feedback\nContent: Minor points are smaller issues noticed during reading, such as: Linguistic inconsistencies, Citation errors. Create a brief list of these, including page references. Example: If too many minor errors exist, do not list all individually; instead, make a general comment recommending professional proofreading. Clarifies that the reviewer is not a proofreader but should point out persistent issues.\nKey points: List minor issues (linguistic, citations); Include page references; Recommend professional proofreading if many errors; Reviewer is not a proofreader"
+    },
+    {
+      "chunk_id": 59,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_07",
+      "subsection_title": "Step 6: Including References in Your Review",
+      "text": "Section: Writing Peer Review Reports\nSubsection: Step 6: Including References in Your Review\nTags: peer review, reviewer guide, evaluation, feedback\nContent: A professional review includes a short reference list citing sources used to support critique or recommendations. This practice helps authors easily access the literature you mention and facilitates addressing your points. Including references elevates the review from mediocre to very good by demonstrating scholarly rigor and thoroughness. Encourages reviewers to make it as easy as possible for authors to implement suggestions.\nKey points: Include short reference list; Cite sources supporting critique; Demonstrates scholarly rigor; Helps authors implement suggestions"
+    },
+    {
+      "chunk_id": 60,
+      "section_id": "sec_05",
+      "section_title": "Writing Peer Review Reports",
+      "subsection_id": "sec_05_08",
+      "subsection_title": "Step 7: Recommendation",
+      "text": "Section: Writing Peer Review Reports\nSubsection: Step 7: Recommendation\nTags: peer review, reviewer guide, evaluation, feedback\nContent: The reviewer must provide a recommendation about the paper's fate: Reject, Major revisions required, Minor revisions required, Accept as is. The recommendation is typically not included directly in the review text to simplify the editor's task of summarizing multiple reviews. The final decision lies with the editor, not the reviewer. Even if recommending rejection, the reviewer's critique should be constructive and helpful since authors still benefit from the feedback.\nKey points: Provide recommendation (Reject, Revise, Accept); Do not include recommendation in review text; Final decision lies with editor; Critique should be constructive even if rejecting"
+    }
+  ],
+  "embeddings_source": "paper_guide_rag_meta.json (chunk texts re-encoded)"
+}

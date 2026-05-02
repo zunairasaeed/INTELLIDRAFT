@@ -1,0 +1,425 @@
+{
+  "publisher": "ACM",
+  "journals": [
+    {
+      "journal_code": "acmjcss",
+      "journal_name": "ACM Journal on Computing and Sustainable Societies",
+      "scope": "Publishes significant and original interdisciplinary research from computer science, social sciences, environmental sciences, and engineering that supports sustainable societies worldwide. Focuses on UN Sustainable Development Goals (SDGs), sustainability, gender equality, health, education, poverty, accessibility, climate change, energy, and ethics of technology from critical perspectives.",
+      "sub_field": "Sustainable Computing"
+    },
+    {
+      "journal_code": "acmjds",
+      "journal_name": "ACM Journal of Data Science",
+      "scope": "Gold Open Access journal publishing high-impact research from all areas of data science across foundations, applications, and systems. Multi-disciplinary scope spanning statistics, machine learning, computer systems, and societal implications of data science.",
+      "sub_field": "Data Science"
+    },
+    {
+      "journal_code": "ailet",
+      "journal_name": "ACM AI Letters",
+      "scope": "Rapid-publication venue for impactful, concise communications in AI. Prioritizes theoretical breakthroughs, algorithmic innovation, practical real-world applications, and critical societal implications including ethics, policy, and responsible AI. Includes rigorously reviewed opinion pieces and policy briefs.",
+      "sub_field": "Artificial Intelligence"
+    },
+    {
+      "journal_code": "cola",
+      "journal_name": "Collective Intelligence",
+      "scope": "Transdisciplinary journal devoted to advancing theoretical and empirical understanding of group performance in diverse systems, from adaptive matter to cellular/neural systems, animal societies, human organizations, and hybrid AI-human teams.",
+      "sub_field": "Collective Intelligence"
+    },
+    {
+      "journal_code": "csur",
+      "journal_name": "ACM Computing Surveys",
+      "scope": "Publishes comprehensive, readable surveys and tutorial papers that explain computing topics in an accessible way to broad audiences. Features clear exposition, lively tutorial style, and pointers to literature for further study. Welcomes contributions bridging emerging technologies with science/engineering domains.",
+      "sub_field": "Survey Publications"
+    },
+    {
+      "journal_code": "dgov",
+      "journal_name": "Digital Government: Research and Practice",
+      "scope": "Interdisciplinary Gold Open Access journal focusing on technology's potential and impact on innovations and transformation of public institutions and governance. Promotes applied and empirical research using political, policy, social, computer, and data sciences methodologies.",
+      "sub_field": "E-Government"
+    },
+    {
+      "journal_code": "dlt",
+      "journal_name": "Distributed Ledger Technologies: Research and Practice",
+      "scope": "Peer-reviewed journal publishing high-quality interdisciplinary research on development, deployment, and evaluation of distributed ledger technologies including blockchain, cryptocurrency, and smart contracts. Blends original research with practice-driven advancements.",
+      "sub_field": "Blockchain"
+    },
+    {
+      "journal_code": "dtrap",
+      "journal_name": "Digital Threats: Research and Practice",
+      "scope": "Gold Open Access journal targeting prevention, identification, mitigation, and elimination of digital threats. Bridges gap between academic research and industry practice by addressing extant real-world threats with reproducible results.",
+      "sub_field": "Cybersecurity"
+    },
+    {
+      "journal_code": "fac",
+      "journal_name": "Formal Aspects of Computing",
+      "scope": "Gold Open Access journal publishing contributions at the junction of theory and practice in formal methods. Disseminates applicable research where new theoretical contributions are motivated by potential application or applications show novelty in approach.",
+      "sub_field": "Formal Methods"
+    },
+    {
+      "journal_code": "games",
+      "journal_name": "Games: Research and Practice",
+      "scope": "Publishes major reviews, tutorials, and advances on games and playable media that are practically useful and grounded in robust evidence. Inclusive of community, discipline, method, and game form. Embraces open science and champions underrepresented voices.",
+      "sub_field": "Game Development"
+    },
+    {
+      "journal_code": "health",
+      "journal_name": "ACM Transactions on Computing for Healthcare",
+      "scope": "Multi-disciplinary journal for high-quality research on how computing improves healthcare. Intersects CS, ECE, mechanical/bio-medical engineering, behavioral/social science, psychology, and health fields. Requires evidence of computing contributions informed by healthcare.",
+      "sub_field": "Health Informatics"
+    },
+    {
+      "journal_code": "imwut",
+      "journal_name": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+      "scope": "Premier journal for research relevant to the post-PC era where computing is embedded throughout environment, mobile devices, wearables, and IoT. Covers mobile systems, wearable technologies, intelligent environments, sensing techniques, and user experience studies.",
+      "sub_field": "Ubiquitous Computing"
+    },
+    {
+      "journal_code": "jacm",
+      "journal_name": "Journal of the ACM",
+      "scope": "Publishes truly outstanding work on principles of computer science broadly construed. Covers contributions of lasting value to any area of computer science including core CS and work at boundaries of subdisciplines or between CS and other fields.",
+      "sub_field": "Theoretical Computer Science"
+    },
+    {
+      "journal_code": "jats",
+      "journal_name": "ACM Journal on Autonomous Transportation Systems",
+      "scope": "Covers design, analysis, and control of autonomous transportation systems including data science, communication/control in connected systems, smart traffic management, public transit, cooperation in IoVs/UAVs, algorithm design, traffic flow modeling, and urban logistics.",
+      "sub_field": "Autonomous Systems"
+    },
+    {
+      "journal_code": "jdiq",
+      "journal_name": "Journal of Data and Information Quality",
+      "scope": "Publishes high-quality articles making significant contributions to data and information quality including information quality in enterprise context, database technical solutions, CS/IT context, and information curation. Accepts diverse research methods both quantitative and qualitative.",
+      "sub_field": "Data Quality"
+    },
+    {
+      "journal_code": "jetc",
+      "journal_name": "ACM Journal on Emerging Technologies in Computing Systems",
+      "scope": "Publishes original research on emerging technologies including alternate mechanical, biological/biochemical, nanoscale electronic, asynchronous and quantum computing. Covers logic primitive design, system-level specification, software synthesis, and mixed-technology systems.",
+      "sub_field": "Emerging Technologies"
+    },
+    {
+      "journal_code": "jocch",
+      "journal_name": "Journal on Computing and Cultural Heritage",
+      "scope": "Publishes papers of significant value on use of ICT in support of Cultural Heritage. Encourages innovative use of technology for discovery, analysis, interpretation and presentation of cultural material, and applications challenging computational technologies.",
+      "sub_field": "Digital Humanities"
+    },
+    {
+      "journal_code": "jrc",
+      "journal_name": "ACM Journal on Responsible Computing",
+      "scope": "Publishes high-quality research at intersection of computing, ethics, information, law, policy, responsible innovation, and social responsibility. Covers values/ethics in design, societal implications, public interest technology, fairness/accountability/transparency, and threats like adversarial ML/misinformation.",
+      "sub_field": "Responsible Computing"
+    },
+    {
+      "journal_code": "pacmcgit",
+      "journal_name": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+      "scope": "Publishes original research of highest quality on computer graphics and interactive techniques including rendering, modeling, animation, digital image processing, computational fabrication, photography, physical modeling, user interfaces, video games, and virtual/augmented reality.",
+      "sub_field": "Computer Graphics"
+    },
+    {
+      "journal_code": "pacmhci",
+      "journal_name": "Proceedings of the ACM on Human-Computer Interaction",
+      "scope": "Journal for research on multiple aspects of human-computer interaction. Covers characteristics of humans from individual cognition to group effects and societal impacts. Includes ethnography, surveys, experiments, system implementation, new input/output systems, and societal impacts of HCI.",
+      "sub_field": "Human-Computer Interaction"
+    },
+    {
+      "journal_code": "pacmmod",
+      "journal_name": "Proceedings of the ACM on Management of Data",
+      "scope": "Concerned with principles, algorithms, techniques, and applications of database management systems, data engineering, and data science. Targets data life cycle of real applications studying phenomena at unprecedented scales, complexities, and granularities using ML/AI methods.",
+      "sub_field": "Data Management"
+    },
+    {
+      "journal_code": "pacmnet",
+      "journal_name": "Proceedings of the ACM on Networking",
+      "scope": "Journal for research on multiple aspects of computer networking. Seeks significant novel results on emerging networking topics including protocols for various networks, network measurements/modeling, security of networked systems, network management/control, SDN/NFV, and ML/AI applications in networks.",
+      "sub_field": "Computer Networking"
+    },
+    {
+      "journal_code": "pacmpl",
+      "journal_name": "Proceedings of the ACM on Programming Languages",
+      "scope": "Gold Open Access journal publishing research on all aspects of programming languages from design to implementation and from mathematical formalisms to empirical studies. Each issue devoted to particular subject area within programming languages.",
+      "sub_field": "Programming Languages"
+    },
+    {
+      "journal_code": "pacmse",
+      "journal_name": "Proceedings of the ACM on Software Engineering",
+      "scope": "Premier Gold Open Access journal publishing top-quality research on all aspects of software engineering from requirements to maintenance, evolution, and deployment. Covers methodologies, tools, theories, models, and empirical studies across embedded, cloud, mobile, and conventional systems.",
+      "sub_field": "Software Engineering"
+    },
+    {
+      "journal_code": "pomacs",
+      "journal_name": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "scope": "Publishes original research on performance of computing systems broadly construed. Welcomes benchmarking, experimental evaluation, mathematical modeling, and algorithmic analysis to determine or predict performance of computer/network systems including architecture, databases, networks, OS, distributed systems, and cloud computing.",
+      "sub_field": "Systems Performance"
+    },
+    {
+      "journal_code": "taas",
+      "journal_name": "ACM Transactions on Autonomous and Adaptive Systems",
+      "scope": "Venue for high-quality research addressing foundational, engineering, and technological aspects of autonomous adaptive systems. Focuses on system design, system software architectures, and enabling technologies with emphasis on experimental validation.",
+      "sub_field": "Autonomous Systems"
+    },
+    {
+      "journal_code": "taccess",
+      "journal_name": "ACM Transactions on Accessible Computing",
+      "scope": "Quarterly peer-reviewed journal publishing articles addressing barriers to access through assistive systems or inclusive technology design for individuals with diverse abilities. Technical forum for innovative research on applications of computing to provide assistive systems or inclusive technologies.",
+      "sub_field": "Accessibility"
+    },
+    {
+      "journal_code": "taco",
+      "journal_name": "ACM Transactions on Architecture and Code Optimization",
+      "scope": "Gold Open Access journal focusing on hardware, software, and system research spanning computer architecture and code optimization. Articles present new techniques/concepts or report experiences with actual systems emphasizing insights useful to architects and developers.",
+      "sub_field": "Computer Architecture"
+    },
+    {
+      "journal_code": "tais",
+      "journal_name": "ACM Transactions on AI for Science",
+      "scope": "Publishes articles demonstrating how scientific challenges drive development of new AI methodology and how AI advances enable scientific breakthroughs. Welcomes novel AI methods motivated by scientific problems or transformative applications where AI advances science in physics, chemistry, biology, climate, and engineering.",
+      "sub_field": "AI for Science"
+    },
+    {
+      "journal_code": "taisap",
+      "journal_name": "ACM Transactions on AI Security and Privacy",
+      "scope": "Publishes research investigating all aspects of AI security and privacy including adversarial attacks, technical vulnerabilities within AI, privacy concerns in model training/deployment, and AI applications in cybersecurity such as threat intelligence and security operations centers.",
+      "sub_field": "AI Security"
+    },
+    {
+      "journal_code": "talg",
+      "journal_name": "ACM Transactions on Algorithms",
+      "scope": "Publishes original research of highest quality on algorithms that are inherently discrete and finite with mathematical content. Welcomes new algorithms and data structures, improved analyses, and complexity results.",
+      "sub_field": "Algorithms"
+    },
+    {
+      "journal_code": "tallip",
+      "journal_name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "scope": "Publishes high-quality papers on computation and processing of information in Asian languages and low-resource languages of Africa, Australasia, Oceania and Americas. Covers computational linguistics, linguistic resources, machine translation, information retrieval, speech processing, and multimedia processing.",
+      "sub_field": "Natural Language Processing"
+    },
+    {
+      "journal_code": "tap",
+      "journal_name": "ACM Transactions on Applied Perception",
+      "scope": "Broadens synergy between computer science and psychology/perception. Publishes interdisciplinary research incorporating both perceptual and computer science components including visual (graphics, visualization), auditory (sound interfaces), haptics, sensorimotor, and multisensory interaction.",
+      "sub_field": "Applied Perception"
+    },
+    {
+      "journal_code": "tcps",
+      "journal_name": "ACM Transactions on Cyber-Physical Systems",
+      "scope": "Premier journal for scientific/technological understanding of interactions between information processing, networking and physical processes. Covers computation abstractions, system modeling, design automation, trustworthy/resilient designs, and human-in-the-loop systems for healthcare, transportation, energy, and robotics.",
+      "sub_field": "Cyber-Physical Systems"
+    },
+    {
+      "journal_code": "teac",
+      "journal_name": "ACM Transactions on Economics and Computation",
+      "scope": "Focuses on intersection of computer science and economics including algorithmic game theory, mechanism design, electronic markets, computation of equilibria, cost of strategic behavior, learning in games/markets, computational advertising, social choice, and recommendation/trust systems.",
+      "sub_field": "Computational Economics"
+    },
+    {
+      "journal_code": "tecs",
+      "journal_name": "ACM Transactions on Embedded Computing Systems",
+      "scope": "Presents leading work relating to analysis, design, behavior, and experience with embedded computing systems. Design of embedded systems increasingly relies on sophisticated algorithms, analytical models, and methodologies.",
+      "sub_field": "Embedded Systems"
+    },
+    {
+      "journal_code": "telo",
+      "journal_name": "ACM Transactions on Evolutionary Learning and Optimization",
+      "scope": "Publishes original papers in evolutionary computation and related areas including evolutionary machine learning, reinforcement learning, Bayesian optimization, evolutionary robotics, and metaheuristics. Welcomes theory, methods, applications in optimization, logistics, healthcare, robotics, and software engineering.",
+      "sub_field": "Evolutionary Computation"
+    },
+    {
+      "journal_code": "thri",
+      "journal_name": "ACM Transactions on Human-Robot Interaction",
+      "scope": "Gold Open Access journal for interdisciplinary HRI research. Publishes articles advancing understanding of how people interact with robots, improving interactions, enabling new interaction types, and effects on organizations/society. Welcomes robotics, CS, engineering, design, and behavioral/social sciences perspectives.",
+      "sub_field": "Human-Robot Interaction"
+    },
+    {
+      "journal_code": "tiis",
+      "journal_name": "ACM Transactions on Interactive Intelligent Systems",
+      "scope": "Journal for research on intelligent systems that people interact with. Publishes articles on design, realization, or evaluation of interactive systems incorporating machine intelligence including focus on intelligent technology, user interaction, or both aspects simultaneously.",
+      "sub_field": "Interactive AI"
+    },
+    {
+      "journal_code": "tiot",
+      "journal_name": "ACM Transactions on Internet of Things",
+      "scope": "Publishes novel research contributions and experience reports in domains whose synergy enables IoT vision. Focuses on system designs, end-to-end architectures, and enabling technologies with strong experimental component for validation.",
+      "sub_field": "Internet of Things"
+    },
+    {
+      "journal_code": "tist",
+      "journal_name": "ACM Transactions on Intelligent Systems and Technology",
+      "scope": "Publishes highest quality papers on intelligent systems with multi-disciplinary perspective. An intelligent system uses AI techniques to perceive, reason, learn, and act intelligently in the real world as component of larger systems.",
+      "sub_field": "Intelligent Systems"
+    },
+    {
+      "journal_code": "tkdd",
+      "journal_name": "ACM Transactions on Knowledge Discovery from Data",
+      "scope": "Welcomes papers on full range of knowledge discovery research including scalable algorithms for data mining, mining data streams, multimedia/text/Web data, spatial/temporal data, social network analysis, security/privacy in mining, visual/interactive mining, and novel applications exploiting data mining technology.",
+      "sub_field": "Data Mining"
+    },
+    {
+      "journal_code": "tmis",
+      "journal_name": "ACM Transactions on Management Information Systems",
+      "scope": "Scholarly quarterly journal focusing on high quality information systems research. Welcomes innovative work on design, development, assessment, and management of IT/systems within organizations, businesses, and societies with technical ingredients like algorithms, analytical modeling, and design science.",
+      "sub_field": "Information Systems"
+    },
+    {
+      "journal_code": "toce",
+      "journal_name": "ACM Transactions on Computing Education",
+      "scope": "Publishes high quality peer-reviewed research articles on all aspects of computing education of interest to researchers, educators, instructional designers, teacher educators, school administrators, policy makers, and stakeholders.",
+      "sub_field": "Computing Education"
+    },
+    {
+      "journal_code": "tochi",
+      "journal_name": "ACM Transactions on Computer-Human Interaction",
+      "scope": "Covers software, hardware and human aspects of interaction with computers including hardware/software architectures, interactive techniques/metaphors/evaluation, user interface design processes, and users/groups of users. Benefits AI, object-oriented systems, information systems, graphics and software engineering communities.",
+      "sub_field": "Human-Computer Interaction"
+    },
+    {
+      "journal_code": "tocl",
+      "journal_name": "ACM Transactions on Computational Logic",
+      "scope": "Devoted to research concerned with all uses of logic in computer science. Logic plays important role in AI, computational complexity, database systems and programming languages.",
+      "sub_field": "Computational Logic"
+    },
+    {
+      "journal_code": "tocs",
+      "journal_name": "ACM Transactions on Computer Systems",
+      "scope": "Presents research and development results on design, implementation, analysis, evaluation, and use of computer systems and systems software. Includes operating systems, systems architecture/hardware, distributed systems, optimizing compilers, and systems/network interaction.",
+      "sub_field": "Computer Systems"
+    },
+    {
+      "journal_code": "toct",
+      "journal_name": "ACM Transactions on Computation Theory",
+      "scope": "Scholarly journal devoted to computational complexity theory and allied fields. Publishes outstanding original research exploring limits of feasible computation with mathematical nature of computation.",
+      "sub_field": "Computational Complexity"
+    },
+    {
+      "journal_code": "todaes",
+      "journal_name": "ACM Transactions on Design Automation of Electronic Systems",
+      "scope": "Premier journal in design and automation of electronic systems. Publishes innovative work on specification, design, analysis, simulation, testing, and evaluation of electronic systems with CS/engineering orientation. Welcomes design automation for ML/AI and ML/AI for design automation.",
+      "sub_field": "Electronic Design Automation"
+    },
+    {
+      "journal_code": "tods",
+      "journal_name": "ACM Transactions on Database Systems",
+      "scope": "Key publication for computer scientists working in data abstraction, data modeling, and designing data management systems. Topics include storage and retrieval, transaction management, distributed/federated databases, semantics of data, and intelligent databases.",
+      "sub_field": "Database Systems"
+    },
+    {
+      "journal_code": "tog",
+      "journal_name": "ACM Transactions on Graphics",
+      "scope": "Foremost peer-reviewed journal in graphics field. Discusses breakthroughs in computer-aided design, synthetic image generation, rendering, solid modeling, and other areas essential for implementing graphics systems.",
+      "sub_field": "Computer Graphics"
+    },
+    {
+      "journal_code": "tois",
+      "journal_name": "ACM Transactions on Information Systems",
+      "scope": "Publishes papers on information retrieval including search engines and recommender systems with new principled models/algorithms, observational/experimental/theoretical studies, applications shedding light on technique strengths/weaknesses, and content analysis methods for text/image/speech/video.",
+      "sub_field": "Information Retrieval"
+    },
+    {
+      "journal_code": "toit",
+      "journal_name": "ACM Transactions on Internet Technology",
+      "scope": "Brings together computing disciplines including software engineering, programming languages, middleware, database management, security, knowledge discovery, networking and distributed systems, communications, performance and scalability.",
+      "sub_field": "Internet Technology"
+    },
+    {
+      "journal_code": "tomacs",
+      "journal_name": "ACM Transactions on Modeling and Computer Simulation",
+      "scope": "Archival source for publication of high-quality research on all phases of modeling and simulation life cycle. Emphasizes discrete event simulation, combined discrete/continuous simulation, and Monte Carlo methods.",
+      "sub_field": "Computer Simulation"
+    },
+    {
+      "journal_code": "tomm",
+      "journal_name": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+      "scope": "Focuses on multimedia computing (I/O devices, OS, storage, streaming middleware, media representations/coding/processing), multimedia communications (real-time protocols, resource allocation, multicast), and multimedia applications (databases, collaboration, video conferencing, 3D environments).",
+      "sub_field": "Multimedia Systems"
+    },
+    {
+      "journal_code": "tompecs",
+      "journal_name": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+      "scope": "Quarterly journal publishing refereed articles on modeling, analysis, and performance evaluation of computing/communication systems. Solicits new methodologies including analytical techniques, experimental design, formal methods, mathematical modeling, optimization, queueing theory, and workload characterization.",
+      "sub_field": "Performance Evaluation"
+    },
+    {
+      "journal_code": "toms",
+      "journal_name": "ACM Transactions on Mathematical Software",
+      "scope": "Documents theoretical underpinnings of numeric, symbolic, algebraic, and geometric computing applications. Focuses on analysis and construction of algorithms and programs, and interaction of programs and architecture. Algorithms available as Collected Algorithms of the ACM.",
+      "sub_field": "Mathematical Software"
+    },
+    {
+      "journal_code": "topc",
+      "journal_name": "ACM Transactions on Parallel Computing",
+      "scope": "Forum for novel and innovative work on all aspects of parallel computing including foundational/theoretical aspects, systems, languages, architectures, tools, and applications. Addresses concurrent, multithreaded, multicore, accelerated, multiprocessor, clusters, and supercomputers.",
+      "sub_field": "Parallel Computing"
+    },
+    {
+      "journal_code": "toplas",
+      "journal_name": "ACM Transactions on Programming Languages and Systems",
+      "scope": "Premier journal for recent research advances in programming languages and systems. Broad scope covering language design/implementation, compilers, runtime systems, type systems, program verification, concurrency, distributed programming, security/privacy, domain-specific languages, and empirical studies.",
+      "sub_field": "Programming Languages"
+    },
+    {
+      "journal_code": "topml",
+      "journal_name": "ACM Transactions on Probabilistic Machine Learning",
+      "scope": "Focuses on probabilistic methods that learn from data under uncertainty including Bayesian modeling/inference, variational inference, Gaussian processes, Monte Carlo sampling, and ensemble modeling. Covers neural networks, kernel/graph models, reinforcement learning, causal inference, and ethical considerations like privacy/fairness.",
+      "sub_field": "Probabilistic Machine Learning"
+    },
+    {
+      "journal_code": "tops",
+      "journal_name": "ACM Transactions on Privacy and Security",
+      "scope": "Publishes research on all aspects of privacy and security in computing systems including cryptographic protocols, access control, network security, software security, privacy-enhancing technologies, and security/privacy in emerging applications.",
+      "sub_field": "Privacy and Security"
+    },
+    {
+      "journal_code": "tors",
+      "journal_name": "ACM Transactions on Recommender Systems",
+      "scope": "Publishes high-quality research on recommender systems including algorithms, evaluation methodologies, user studies, fairness/transparency in recommendations, and novel application domains for recommendation technologies.",
+      "sub_field": "Recommender Systems"
+    },
+    {
+      "journal_code": "tos",
+      "journal_name": "ACM Transactions on Storage",
+      "scope": "First archival journal on storage covering broad multidisciplinary area including network protocols, resource management, data backup/replication/recovery, devices, security, theory of data coding, densities, and low-power storage systems.",
+      "sub_field": "Storage Systems"
+    },
+    {
+      "journal_code": "tosem",
+      "journal_name": "ACM Transactions on Software Engineering and Methodology",
+      "scope": "Publishes research on software testing, debugging, formal methods, and software quality assurance. Covers full spectrum of software engineering methodology from requirements to maintenance with emphasis on empirical validation.",
+      "sub_field": "Software Engineering"
+    },
+    {
+      "journal_code": "tosn",
+      "journal_name": "ACM Transactions on Sensor Networks",
+      "scope": "Publishes research on design, implementation, and application of sensor networks including networking protocols, energy management, distributed algorithms, data aggregation, localization, and real-world deployments of wireless sensor systems.",
+      "sub_field": "Sensor Networks"
+    },
+    {
+      "journal_code": "tqc",
+      "journal_name": "ACM Transactions on Quantum Computing",
+      "scope": "Publishes research on quantum computing algorithms, architectures, programming languages, error correction, quantum information theory, and applications of quantum computing to solve computational problems intractable for classical computers.",
+      "sub_field": "Quantum Computing"
+    },
+    {
+      "journal_code": "trets",
+      "journal_name": "ACM Transactions on Reconfigurable Technology and Systems",
+      "scope": "Publishes research on reconfigurable computing architectures, FPGA design methodologies, hardware/software co-design for reconfigurable platforms, and applications leveraging dynamic hardware reconfiguration for performance/energy efficiency.",
+      "sub_field": "Reconfigurable Computing"
+    },
+    {
+      "journal_code": "tsas",
+      "journal_name": "ACM Transactions on Spatial Algorithms and Systems",
+      "scope": "Publishes research on spatial data management, spatial query processing, geographic information systems, location-based services, trajectory analysis, and algorithms for spatial/temporal data with applications in urban computing and mobility.",
+      "sub_field": "Spatial Computing"
+    },
+    {
+      "journal_code": "tsc",
+      "journal_name": "ACM Transactions on Social Computing",
+      "scope": "Publishes research on computational approaches to understanding and supporting social behavior including social network analysis, computational social science, online communities, social media analytics, and socio-technical systems design.",
+      "sub_field": "Social Computing"
+    },
+    {
+      "journal_code": "tweb",
+      "journal_name": "ACM Transactions on the Web",
+      "scope": "Publishes research on Web technologies, architectures, and applications including Web search, semantic Web, Web services, Web mining, social Web, Web security/privacy, and emerging Web platforms and standards.",
+      "sub_field": "Web Technologies"
+    }
+  ]
+}

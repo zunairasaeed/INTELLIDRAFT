@@ -1,0 +1,93 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "index_order": [
+    "ACM",
+    "IEEE",
+    "Springer",
+    "Elsevier"
+  ],
+  "publishers": [
+    {
+      "publisher_key": "ACM",
+      "full_name": "Association for Computing Machinery",
+      "core_strength": "Computing theory, systems, human-computer interaction, software engineering",
+      "best_for_fields": [
+        "Human-Computer Interaction (HCI)",
+        "Software Engineering",
+        "Programming Languages",
+        "Algorithms & Theory (applied focus)",
+        "Computer Graphics & Visualization",
+        "Ubiquitous & Wearable Computing",
+        "Formal Methods",
+        "AI/ML with HCI or systems focus"
+      ],
+      "not_ideal_for": [
+        "Hardware design",
+        "Circuit-level engineering",
+        "Clinical medical studies without CS contribution"
+      ],
+      "official_portal": "https://dl.acm.org/journals"
+    },
+    {
+      "publisher_key": "IEEE",
+      "full_name": "Institute of Electrical and Electronics Engineers",
+      "core_strength": "Engineering, hardware, networks, embedded systems, applied signal processing",
+      "best_for_fields": [
+        "Computer Networking (5G/6G, SDN, protocols)",
+        "Embedded Systems & Cyber-Physical Systems (CPS)",
+        "IoT (hardware + systems layer)",
+        "Cybersecurity (network/hardware/systems security)",
+        "Signal Processing & Wireless Communications",
+        "Quantum Computing (hardware/devices)",
+        "Robotics (control, sensing, real-time systems)",
+        "AI in edge/fog computing or medical devices"
+      ],
+      "not_ideal_for": [
+        "Pure theoretical CS without engineering angle",
+        "UX design without technical system integration"
+      ],
+      "official_portal": "https://publication-recommender.ieee.org/home"
+    },
+    {
+      "publisher_key": "Springer",
+      "full_name": "Springer Nature",
+      "core_strength": "Theoretical, mathematical, and foundational computer science; interdisciplinary modeling",
+      "best_for_fields": [
+        "Theoretical Computer Science",
+        "Machine Learning Theory",
+        "Optimization & Statistical Learning",
+        "Algorithmic Game Theory",
+        "Computational Complexity",
+        "AI in Economics (model-driven)",
+        "Computational Social Science (simulation/theory)",
+        "Formal verification & logic"
+      ],
+      "not_ideal_for": [
+        "Applied engineering prototypes",
+        "Empirical UX studies without theoretical framing",
+        "Product-focused case studies"
+      ],
+      "official_portal": "https://link.springer.com/journals/browse-subject?subject=TECHNOLOGY_AND_ENGINEERING"
+    },
+    {
+      "publisher_key": "Elsevier",
+      "full_name": "Elsevier",
+      "core_strength": "Applied, interdisciplinary research with real-world impact; strong in domain integration",
+      "best_for_fields": [
+        "Applied Artificial Intelligence",
+        "Deep Learning Applications (healthcare, finance, etc.)",
+        "Bioinformatics & Computational Biology",
+        "AI in Medicine (diagnostics, clinical prediction)",
+        "Business Analytics & Decision Support Systems",
+        "AI in Social Sciences (policy, behavior, large-scale data)",
+        "Data Science (applied datasets, pipelines)",
+        "AI in Economics (forecasting, econometrics)"
+      ],
+      "not_ideal_for": [
+        "Pure hardware design",
+        "Low-level protocol specification without application context"
+      ],
+      "official_portal": "https://journalfinder.elsevier.com/"
+    }
+  ]
+}
