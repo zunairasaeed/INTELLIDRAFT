@@ -1,1 +1,0 @@
-# Journal Information Assistant module

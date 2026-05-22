@@ -1,0 +1,50 @@
+\documentclass[sigconf]{acmart}
+
+\acmConference[CONF '26]{ACM Conference}{June 01--03, 2026}{New York, NY}
+\acmDOI{10.1145/1122334.4455667}
+\keywords{LaTeX, parsing, editing, agents}
+
+\title{A Surgical LaTeX Editor Agent}
+
+\begin{document}
+
+\begin{abstract}
+We present a backend agent that parses LaTeX papers into structural zones
+and edits individual sections under natural-language instructions.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+Academic writing in LaTeX is a slow, error-prone craft. Authors spend
+significant effort rephrasing sections, tightening prose, and reconciling
+citations across drafts. Existing editors help with syntax but offer little
+semantic assistance \cite{Knuth1984Literate, Lamport1994LaTeX}.
+In this paper we present a backend agent that parses LaTeX papers into
+structural zones and lets the user rewrite individual sections through
+natural-language instructions, with surgical edits that never touch the
+surrounding document.
+
+\section{Background}
+\label{sec:background}
+Prior work on academic-writing assistants is reviewed here.
+
+\subsection{Editors}
+Existing LaTeX editors focus on syntax, not semantics.
+
+\section{Methodology}
+% TODO: write this section
+
+\section{Results}
+
+\section{Conclusion}
+We have described a surgical editor for ACM-style papers.
+
+\begin{acks}
+We thank the IntelliDraft team for valuable feedback.
+\end{acks}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+
+\end{document}

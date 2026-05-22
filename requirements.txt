@@ -8,13 +8,13 @@ uvicorn>=0.27
 # =========================
 # LangChain
 # =========================
-langchain>=0.1.20
-langchain-community>=0.0.30
+# langchain>=0.1.20
+# langchain-community>=0.0.30
 
-# =========================
-# Local LLaMA (CPU)
-# =========================
-llama-cpp-python>=0.2.50
+# # =========================
+# # Local LLaMA (CPU)
+# # =========================
+# llama-cpp-python>=0.2.50
 
 # =========================
 # Embeddings & Vector Search
@@ -39,4 +39,5 @@ faiss-cpu
 groq
 openai
 supabase
-pthon-multipart
+supabase-auth
+python-multipart

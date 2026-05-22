@@ -1,11 +1,28 @@
 import logging
 import os
+from pathlib import Path
 
-from dotenv import load_dotenv
+from dotenv import dotenv_values, load_dotenv
 from supabase import create_client, Client
 
-load_dotenv()
+# Load repo-root `.env` (parent of ``backend/``), not cwd-only `load_dotenv()`.
+_PROJECT_ROOT = Path(__file__).resolve().parents[1]
+_DOTENV_PATH = _PROJECT_ROOT / ".env"
+
+load_dotenv(_DOTENV_PATH)
+_FILE_ENV: dict[str, str | None] = (
+    dict(dotenv_values(_DOTENV_PATH)) if _DOTENV_PATH.is_file() else {}
+)
 log = logging.getLogger(__name__)
+
+
+def _merged_env(name: str) -> str:
+    """Prefer non-empty process env; otherwise value from repo `.env`."""
+    from_proc = (os.getenv(name) or "").strip()
+    if from_proc:
+        return from_proc
+    raw = _FILE_ENV.get(name)
+    return (raw or "").strip() if isinstance(raw, str) else ""
 
 
 def _supabase_connect_config() -> tuple[str, str]:
@@ -13,20 +30,12 @@ def _supabase_connect_config() -> tuple[str, str]:
     Server-side client: prefers **service_role** JWT so auth + RPC/storage calls
     work reliably from this process.
 
-    Set `SUPABASE_SERVICE_KEY` to the JWT from Dashboard → Settings → API →
-    ``service_role`` (must start with ``eyJ``). Falls back to ``SUPABASE_KEY``
-    if the service key is unset.
-
-    Note: ``service_role`` bypasses Postgres RLS for API calls made with this
-    client unless you deliberately scope with user JWT elsewhere—expected for a
-    trusted backend-only client.
+    Set `SUPABASE_SERVICE_KEY` from Dashboard → Settings → API → ``service_role``.
+    Falls back to ``SUPABASE_KEY`` if the service key is unset.
     """
-    url = (os.getenv("SUPABASE_URL") or "").strip().rstrip("/")
+    url = _merged_env("SUPABASE_URL").rstrip("/")
 
-    key = (
-        (os.getenv("SUPABASE_SERVICE_KEY") or "").strip()
-        or (os.getenv("SUPABASE_KEY") or "").strip()
-    )
+    key = _merged_env("SUPABASE_SERVICE_KEY") or _merged_env("SUPABASE_KEY")
 
     missing: list[str] = []
     if not url:

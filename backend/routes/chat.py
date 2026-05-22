@@ -10,6 +10,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from backend.db import supabase
 from backend.models import ChatRequest, Feature
 from backend.routes.auth import get_current_user
+from backend.session_feature_storage import canonical_feature_value
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
 
@@ -20,8 +21,14 @@ _LEGACY_LATEX_FEATURE = frozenset({"latex_template", "citation_management"})
 def _session_feature(raw: str | None) -> Feature:
     if raw in _LEGACY_LATEX_FEATURE:
         return Feature.latex_alignment
+    if raw is None:
+        raise HTTPException(
+            400,
+            "Session has unknown feature None; update the session or database.",
+        )
+    canon = canonical_feature_value(raw)
     try:
-        return Feature(raw)
+        return Feature(canon)
     except ValueError as e:
         raise HTTPException(
             400,
@@ -46,10 +53,12 @@ def _pipeline_routes_for_feature(feature: Feature) -> str:
             "GET /pipelines/research-guide/health"
         ),
         Feature.latex_alignment: (
+            "POST /pipelines/latex-alignment/ask  (multipart: query + optional tex_file + optional bib_file)\n"
+            "GET /pipelines/latex-alignment/state\n"
+            "GET /pipelines/latex-alignment/export  (download edited .tex)\n"
+            "DELETE /pipelines/latex-alignment/reset\n"
             "GET /pipelines/latex-alignment/health\n"
-            "POST /pipelines/latex-alignment/template (stub)\n"
-            "GET /pipelines/latex-alignment/citations (how to use /citations)\n"
-            "POST /pipelines/latex-alignment/assist (stub)\n"
+            "GET /pipelines/latex-alignment/citations  (how to use /citations)\n"
             "Authenticated saves/exports: /citations/*"
         ),
     }

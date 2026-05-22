@@ -5,45 +5,45 @@ from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import Optional
+
 from backend.db import supabase
 from backend.routes.auth import get_current_user
-from typing import Optional, Union
 from fastapi.responses import StreamingResponse, PlainTextResponse
 router = APIRouter(prefix="/citations", tags=["Citations"])
 
 # ── models ────────────────────────────────────────────────────────────────
 
 class SaveCitationRequest(BaseModel):
-    title:      str
-    authors:    list[str]
-    year:       Optional[str] = None
-    journal:    Optional[str] = None
-    doi:        Optional[str] = None
-    url:        Optional[str] = None
-    abstract:   Optional[str] = None
+    title: str
+    authors: list[str]
+    year: Optional[int] = None
+    journal: Optional[str] = None
+    doi: Optional[str] = None
+    url: Optional[str] = None
+    abstract: Optional[str] = None
     session_id: Optional[str] = None
 
-class SemanticPaper(BaseModel):
-    title:         str
-    authors:       list[Union[dict, str]]
-    year:          Optional[Union[int, str]] = None
-    venue:         Optional[str] = None
-    journal:       Optional[str] = None
-    url:           Optional[str] = None
-    abstract:      Optional[str] = None
-    doi:           Optional[str] = None
-    citationCount: Optional[int] = None
-    source:        Optional[str] = None
+
+class SearchResultPaper(BaseModel):
+    title: str
+    authors: list[str]
+    year: Optional[int] = None
+    journal: Optional[str] = None
+    venue: Optional[str] = None
+    doi: Optional[str] = None
+    url: Optional[str] = None
+    abstract: Optional[str] = None
+    citation_count: Optional[int] = None
+    source: Optional[str] = None
 
 
 class SaveFromSearchRequest(BaseModel):
-    results:    list[SemanticPaper]
+    results: list[SearchResultPaper]
     session_id: Optional[str] = None
 
 # ── helpers ───────────────────────────────────────────────────────────────
 
-def make_citation_key(authors: list, year: str, title: str) -> str:
-    # extract name if dict, use directly if string
+def make_citation_key(authors: list, year: int | str | None, title: str) -> str:
     first = authors[0] if authors else "Unknown"
     if isinstance(first, dict):
         first = first.get("name", "Unknown")
@@ -120,8 +120,8 @@ def save_from_search(body: SaveFromSearchRequest, user=Depends(get_current_user)
     skipped = []
 
     for paper in body.results:
-        # authors are already plain strings — no extraction needed
         author_names = paper.authors
+        journal = paper.journal or paper.venue
 
         existing = supabase.table("citations") \
             .select("id") \
@@ -145,7 +145,7 @@ def save_from_search(body: SaveFromSearchRequest, user=Depends(get_current_user)
             "title":        paper.title,
             "authors":      author_names,
             "year":         paper.year,
-            "journal":      paper.journal,
+            "journal":      journal,
             "doi":          paper.doi,
             "url":          paper.url,
             "abstract":     paper.abstract,
