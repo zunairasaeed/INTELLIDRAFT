@@ -1,25 +1,23 @@
-"""LaTeX Editor Agent.
+"""LaTeX Editor Agent — ACM paper parser + surgical AI edits."""
 
-A backend module that parses LaTeX papers into zones and sections, then
-performs surgical, instruction-driven edits via Groq.
-
-Entry point: :class:`agent.LatexEditorAgent`.
-"""
-
-from .agent import LatexEditorAgent
-from .models.schema import (
-    EditRequest,
-    EditResult,
-    ParsedDocument,
-    Section,
-    Zone,
+from .service import (
+    AskPayload,
+    LatexWorkspace,
+    StatePayload,
+    WorkspaceError,
+    build_state,
+    export_tex,
+    reset_workspace,
+    run_ask,
 )
 
 __all__ = [
-    "LatexEditorAgent",
-    "ParsedDocument",
-    "Zone",
-    "Section",
-    "EditRequest",
-    "EditResult",
+    "LatexWorkspace",
+    "StatePayload",
+    "AskPayload",
+    "WorkspaceError",
+    "build_state",
+    "run_ask",
+    "export_tex",
+    "reset_workspace",
 ]

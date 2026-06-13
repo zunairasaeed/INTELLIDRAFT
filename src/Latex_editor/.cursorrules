@@ -1,0 +1,43 @@
+You are working only on the Latex_editor service inside src/Latex_editor/.
+
+Active source of truth:
+- src/Latex_editor/app/
+- src/Latex_editor/database/schema.sql
+- src/Latex_editor/docs/
+- src/Latex_editor/reference/acm/
+- src/Latex_editor/tests/
+- src/Latex_editor/README.md
+- src/Latex_editor/pyproject.toml
+
+Do not edit or depend on:
+- src/Latex_Alignment/
+- src/backend/
+- src/frontend/
+- any other feature folders outside src/Latex_editor/
+
+Project goal:
+Build a safe ACM LaTeX editing agent with three layers:
+1. structural parser,
+2. intent router,
+3. surgical patch editor.
+
+Architecture rules:
+- The parser must build a tree of sections, environments, and protected regions.
+- The router must map user requests to fixed intents only.
+- The editor must patch only exact ranges and never regenerate the full document.
+- Never modify ACM internals, template files, class/package files, or reference assets.
+- Preserve labels, citations, comments, formatting, and protected LaTeX commands.
+- Reparse after every successful write.
+- Validate output before writing.
+- Use session/workspace separation and per-workspace locking.
+- Keep legacy Latex_Alignment code untouched unless explicitly migrating code into Latex_editor.
+- Write tests for every parser, editor, router, and service change.
+
+Coding style:
+- Prefer small, deterministic functions.
+- Keep business logic in usecases/services.
+- Keep HTTP routes thin.
+- Keep database access isolated.
+- Keep ACM reference files read-only.
+- Keep schema and history logic in the database layer.
+- Add logging for exceptions and rejected edits.

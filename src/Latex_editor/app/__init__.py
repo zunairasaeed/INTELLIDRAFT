@@ -1,0 +1,1 @@
+"""LaTeX Editor application package."""
