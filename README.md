@@ -1,19 +1,20 @@
-##INTELLIDRAFT
-#Agentic AI Research Assistant for Intelligent Academic Research, Journal Recommendation, LaTeX Alignment, and Citation Management
+**INTELLIDRAFT**
+**Agentic AI Research Assistant for Intelligent Academic Research, Journal Recommendation, LaTeX Alignment, and Citation Management**
 <p align="center">
 
 An AI-powered research platform that assists researchers throughout the complete academic writing workflow—from literature discovery to journal recommendation, intelligent writing assistance, LaTeX template alignment, and citation management.
 
 </p>
-#Overview
 
-#INTELLIDRAFT is a full-stack Agentic AI research platform developed as a Final Year Project. It combines Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), semantic search, journal intelligence, and document editing into one unified research environment.
+**Overview**
+
+INTELLIDRAFT is a full-stack Agentic AI research platform developed as a Final Year Project. It combines Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), semantic search, journal intelligence, and document editing into one unified research environment.
 
 Unlike conventional academic tools that solve only isolated tasks, IntelliDraft provides an integrated research workflow where multiple AI agents collaborate to assist researchers from the initial literature search to the final publication-ready manuscript.
 
 The system is built using React, FastAPI, Supabase, FAISS, Sentence Transformers, and LLM-based AI agents, offering a scalable and modular architecture.
 
-##Key Features
+**Key Features**
 Semantic Literature Search
 AI-powered research paper search
 Query refinement using LLMs
@@ -65,7 +66,7 @@ Saved Research History
 Paper Inventory
 User File Storage
 
-##AI Architecture
+**AI Architecture**
 
 INTELLIDRAFT follows an Agentic AI Architecture where a central coordinator routes requests to specialized AI agents.
 
@@ -86,7 +87,7 @@ INTELLIDRAFT follows an Agentic AI Architecture where a central coordinator rout
 
 Each agent independently performs domain-specific reasoning while sharing common infrastructure such as authentication, storage, and LLM services.
 
-##System Architecture
+**System Architecture**
 
 The platform consists of five primary layers:
 
@@ -125,7 +126,7 @@ Document Processing
 LaTeX
 BibTeX
 AI Pipelines
-##1. Literature Search Pipeline
+**1. Literature Search Pipeline**
 User Query
       │
       ▼
@@ -147,7 +148,7 @@ LLM Research Summary
       │
 Results
 
-##2. Journal Recommendation Pipeline
+**2. Journal Recommendation Pipeline**
 Research Topic
       │
 Intent Classification
@@ -164,21 +165,8 @@ LLM Recommendation
       │
 Recommended Journals
 
-##3. Research Guide (RAG)
-Question
-      │
-Query Refinement
-      │
-Embedding Generation
-      │
-FAISS Retrieval
-      │
-Relevant Context
-      │
-LLM Answer
-      │
-Response with Sources
-##4. LaTeX Alignment Pipeline
+
+**3. LaTeX Alignment Pipeline**
 Upload .tex File
         │
 Parser
@@ -196,7 +184,7 @@ Surgical Writer
 Updated Document
         │
 Export
-5. Citation Pipeline
+**5. Citation Pipeline**
 Paper
    │
 Citation Extraction
@@ -207,7 +195,7 @@ Database
    │
 Export
 
-##Project Structure
+**Project Structure**
 INTELLIDRAFT
 │
 ├── frontend/                 # React Frontend
@@ -228,33 +216,33 @@ INTELLIDRAFT
 
 Installation
 
-@#Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/yourusername/INTELLIDRAFT.git
 
-#Move into the project:
+**Move into the project:**
 
 cd INTELLIDRAFT
 
-#Install Python dependencies:
+**Install Python dependencies:**
 
 pip install -r requirements.txt
 
-#Install frontend dependencies:
+**Install frontend dependencies:**
 
 cd frontend/FYP\ Frontend/my-app
 npm install
 
-#Run the backend:
+**Run the backend:**
 
-#uvicorn backend.main:app --reload --port 8001
+uvicorn backend.main:app --reload --port 8001
 
-#Run the frontend:
+**Run the frontend:**
 
 npm start
 Environment Variables
 
-#Create a .env file and configure the following:
+**Create a .env file and configure the following:**
 
 SUPABASE_URL=
 SUPABASE_SERVICE_ROLE_KEY=
@@ -264,7 +252,7 @@ SEMANTIC_SCHOLAR_API_KEY=
 OPENALEX_BASE_URL=
 DOAJ_BASE_URL=
 
-##API Modules
+**API Modules**
 Module	Purpose
 /auth	Authentication
 /sessions	Chat Sessions
@@ -276,7 +264,7 @@ Module	Purpose
 /citations	Citation Management
 /files	User File Storage
 
-##Project Workflow
+**Project Workflow**
 User logs in.
 Creates a research session.
 Searches for literature.
@@ -299,11 +287,11 @@ Cloud-native deployment with Kubernetes
 CI/CD automation
 Contributors
 
-Zunaira Saeed
-Computer Engineering, UET Lahore
+**Zunaira Saeed
+Computer Engineering, UET Lahore**
 
-Final Year Project – INTELLIDRAFT
+**Final Year Project – INTELLIDRAFT**
 
-License
+**License**
 
 This project is developed for educational and research purposes as part of a Final Year Project at the University of Engineering and Technology (UET), Lahore.
